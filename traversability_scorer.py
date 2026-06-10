@@ -170,15 +170,33 @@ def overlay_heatmap(
     return cv2.addWeighted(frame, 1.0 - alpha, heatmap, alpha, 0)
 
 
+def get_risk_class(score: float) -> str:
+    """
+    Classify a continuous traversability score into a discrete risk category.
+    This enables high-level decision making beyond just visualization.
+    """
+    if score >= 0.75:
+        return "Safe"
+    elif score >= 0.35:
+        return "Moderate Risk"
+    else:
+        return "Dangerous"
+
 def score_map_stats(score_map: np.ndarray) -> dict:
     """
     Return summary statistics for the current score map.
     Useful for benchmarking and the FPS/accuracy report.
     """
+    safe_pct = float(np.mean(score_map >= 0.75) * 100)
+    moderate_pct = float(np.mean((score_map >= 0.35) & (score_map < 0.75)) * 100)
+    dangerous_pct = float(np.mean(score_map < 0.35) * 100)
+    
     return {
         "mean_score":        float(np.mean(score_map)),
-        "safe_pixel_pct":    float(np.mean(score_map >= TRAVERSABLE_THRESHOLD) * 100),
-        "obstacle_pixel_pct":float(np.mean(score_map < OBSTACLE_THRESHOLD)    * 100),
+        "safe_pixel_pct":    safe_pct,
+        "moderate_risk_pct": moderate_pct,
+        "dangerous_pct":     dangerous_pct,
+        "obstacle_pixel_pct":float(np.mean(score_map < OBSTACLE_THRESHOLD) * 100),
         "uncertain_pixel_pct": float(
             np.mean(
                 (score_map >= OBSTACLE_THRESHOLD) &

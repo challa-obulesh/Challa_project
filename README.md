@@ -1,7 +1,7 @@
-# Adaptive Semantic Traversability Estimation Using SegFormer
-## Real-Time Autonomous Robot Navigation
+# Adaptive Risk-Aware Semantic Traversability Estimation Using SegFormer
+## Real-Time Robotic Navigation
 
-**IEEE Paper Title:** *Adaptive Semantic Traversability Estimation Using SegFormer for Real-Time Autonomous Robot Navigation*
+**IEEE Paper Title:** *Adaptive Risk-Aware Semantic Traversability Estimation Using SegFormer for Real-Time Robotic Navigation*
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)](https://pytorch.org)
@@ -176,8 +176,8 @@ python3 semantic_astar_navigation.py
 
 ```bibtex
 @inproceedings{challa2026aste,
-  title     = {Adaptive Semantic Traversability Estimation Using SegFormer
-               for Real-Time Autonomous Robot Navigation},
+  title     = {Adaptive Risk-Aware Semantic Traversability Estimation Using SegFormer
+               for Real-Time Robotic Navigation},
   author    = {Challa, [Your Name]},
   booktitle = {IEEE Conference on Robotics and Automation},
   year      = {2026}
