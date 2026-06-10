@@ -1,0 +1,40 @@
+{
+  "model": "SegFormer-B0 · ADE20K-512",
+  "device": "cpu",
+  "video_in": "/home/sdv/zed_navigation_3min.mp4",
+  "video_out": "out_traversability.mp4",
+  "total_frames": 125,
+  "total_time_s": 20.53,
+  "fps": {
+    "mean": 6.09,
+    "max": 7.69
+  },
+  "latency_ms": {
+    "mean": 144.12,
+    "std": 13.67,
+    "min": 130.02,
+    "max": 239.54,
+    "p95": 160.74
+  },
+  "gpu_memory_mb": {
+    "mean": 0.0,
+    "max": 0.0,
+    "note": "CPU-only mode. GPU inference expected on Jetson: ~300 MB"
+  },
+  "ram_mb": {
+    "mean": 984.5,
+    "max": 1050.2
+  },
+  "traversability": {
+    "mean_score": 0.0776,
+    "safe_pixel_pct": 8.99,
+    "obstacle_pixel_pct": 88.34,
+    "uncertain_pixel_pct": 2.67
+  },
+  "jetson_projected": {
+    "note": "Projected performance on NVIDIA Jetson Orin with TorchScript JIT + FP16",
+    "fps_estimated": 18.5,
+    "latency_ms_estimated": 54.1,
+    "gpu_memory_mb_estimated": 312.0
+  }
+}
