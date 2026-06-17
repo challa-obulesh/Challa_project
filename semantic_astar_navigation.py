@@ -1,6 +1,5 @@
 """
-semantic_astar_navigation.py
-============================
+semantic_astar_navigation.py============================
 Main Pipeline  –  Video File Mode
 -----------------------------------
 Full Architecture:
@@ -34,7 +33,7 @@ Full Architecture:
         ▼
   Performance Benchmarking      (FPS · Latency · GPU · RAM)
 
-Week coverage: Weeks 1-6 of the internship roadmap.
+ 
 """
 
 import cv2

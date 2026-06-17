@@ -1,0 +1,159 @@
+Loading SegFormer-B0 …
+Device: cpu
+Loading weights:   0%|          | 0/208 [00:00<?, ?it/s]Loading weights: 100%|██████████| 208/208 [00:00<00:00, 9205.90it/s]
+Model loaded.
+
+Processing: /home/sdv/zed_navigation_3min.mp4
+Frame skip : 5  (processing every 5th frame)
+
+Frame     5 |  239.5 ms |   4.2 FPS | Safe  11.7% | Obs  87.9%
+Frame    10 |  158.5 ms |   6.3 FPS | Safe   2.5% | Obs  87.9%
+Frame    15 |  135.9 ms |   7.4 FPS | Safe   9.7% | Obs  84.6%
+Frame    20 |  134.3 ms |   7.4 FPS | Safe   5.5% | Obs  89.9%
+Frame    25 |  130.3 ms |   7.7 FPS | Safe  18.0% | Obs  69.0%
+Frame    30 |  133.0 ms |   7.5 FPS | Safe  18.8% | Obs  68.8%
+Frame    35 |  156.9 ms |   6.4 FPS | Safe  21.5% | Obs  46.8%
+Frame    40 |  131.4 ms |   7.6 FPS | Safe   2.3% | Obs  97.7%
+Frame    45 |  130.0 ms |   7.7 FPS | Safe   0.0% | Obs  92.6%
+Frame    50 |  133.5 ms |   7.5 FPS | Safe   0.1% | Obs  99.9%
+Frame    55 |  135.4 ms |   7.4 FPS | Safe   0.1% | Obs  99.5%
+Frame    60 |  134.2 ms |   7.4 FPS | Safe   1.2% | Obs  98.8%
+Frame    65 |  150.3 ms |   6.7 FPS | Safe   1.0% | Obs  99.0%
+Frame    70 |  132.7 ms |   7.5 FPS | Safe   5.5% | Obs  94.5%
+Frame    75 |  140.6 ms |   7.1 FPS | Safe   7.3% | Obs  76.9%
+Frame    80 |  132.7 ms |   7.5 FPS | Safe   9.6% | Obs  90.0%
+Frame    85 |  132.6 ms |   7.5 FPS | Safe   7.4% | Obs  92.4%
+Frame    90 |  132.3 ms |   7.6 FPS | Safe   8.1% | Obs  91.7%
+Frame    95 |  133.4 ms |   7.5 FPS | Safe   7.1% | Obs  92.7%
+Frame   100 |  153.6 ms |   6.5 FPS | Safe   4.1% | Obs  93.9%
+Frame   105 |  137.5 ms |   7.3 FPS | Safe  13.7% | Obs  84.7%
+Frame   110 |  136.5 ms |   7.3 FPS | Safe   9.7% | Obs  81.1%
+Frame   115 |  142.2 ms |   7.0 FPS | Safe   3.8% | Obs  95.9%
+Frame   120 |  135.3 ms |   7.4 FPS | Safe  18.3% | Obs  80.5%
+Frame   125 |  143.6 ms |   7.0 FPS | Safe  13.5% | Obs  85.0%
+Frame   130 |  153.5 ms |   6.5 FPS | Safe   3.3% | Obs  96.5%
+Frame   135 |  143.0 ms |   7.0 FPS | Safe   2.5% | Obs  95.1%
+Frame   140 |  131.0 ms |   7.6 FPS | Safe   9.0% | Obs  85.6%
+Frame   145 |  139.2 ms |   7.2 FPS | Safe   3.6% | Obs  91.1%
+Frame   150 |  136.4 ms |   7.3 FPS | Safe  18.0% | Obs  79.4%
+Frame   155 |  161.7 ms |   6.2 FPS | Safe   3.7% | Obs  96.1%
+Frame   160 |  158.5 ms |   6.3 FPS | Safe   5.6% | Obs  94.4%
+Frame   165 |  160.9 ms |   6.2 FPS | Safe   5.5% | Obs  93.8%
+Frame   170 |  148.0 ms |   6.8 FPS | Safe   5.5% | Obs  93.2%
+Frame   175 |  150.9 ms |   6.6 FPS | Safe  19.4% | Obs  80.3%
+Frame   180 |  155.7 ms |   6.4 FPS | Safe   7.1% | Obs  92.3%
+Frame   185 |  141.0 ms |   7.1 FPS | Safe   4.6% | Obs  94.9%
+Frame   190 |  143.3 ms |   7.0 FPS | Safe  13.3% | Obs  86.2%
+Frame   195 |  144.8 ms |   6.9 FPS | Safe   1.5% | Obs  97.4%
+Frame   200 |  159.6 ms |   6.3 FPS | Safe   7.5% | Obs  83.6%
+Frame   205 |  143.8 ms |   7.0 FPS | Safe  16.4% | Obs  80.7%
+Frame   210 |  133.8 ms |   7.5 FPS | Safe   3.1% | Obs  93.7%
+Frame   215 |  149.6 ms |   6.7 FPS | Safe  11.6% | Obs  86.2%
+Frame   220 |  143.2 ms |   7.0 FPS | Safe   9.6% | Obs  90.1%
+Frame   225 |  150.1 ms |   6.7 FPS | Safe   8.9% | Obs  91.0%
+Frame   230 |  134.8 ms |   7.4 FPS | Safe  10.2% | Obs  89.5%
+Frame   235 |  134.2 ms |   7.5 FPS | Safe   5.1% | Obs  93.8%
+Frame   240 |  137.6 ms |   7.3 FPS | Safe  12.4% | Obs  87.6%
+Frame   245 |  143.6 ms |   7.0 FPS | Safe   2.6% | Obs  90.6%
+Frame   250 |  134.1 ms |   7.5 FPS | Safe  16.4% | Obs  83.3%
+Frame   255 |  144.5 ms |   6.9 FPS | Safe   0.0% | Obs  99.9%
+Frame   260 |  147.2 ms |   6.8 FPS | Safe  10.8% | Obs  89.1%
+Frame   265 |  131.5 ms |   7.6 FPS | Safe  22.1% | Obs  77.2%
+Frame   270 |  137.7 ms |   7.3 FPS | Safe   5.8% | Obs  72.1%
+Frame   275 |  136.0 ms |   7.4 FPS | Safe   5.9% | Obs  89.9%
+Frame   280 |  132.4 ms |   7.6 FPS | Safe   9.3% | Obs  89.2%
+Frame   285 |  133.1 ms |   7.5 FPS | Safe   2.5% | Obs  89.5%
+Frame   290 |  132.7 ms |   7.5 FPS | Safe   4.0% | Obs  93.9%
+Frame   295 |  134.9 ms |   7.4 FPS | Safe  28.8% | Obs  71.2%
+Frame   300 |  136.7 ms |   7.3 FPS | Safe  17.6% | Obs  65.0%
+Frame   305 |  140.3 ms |   7.1 FPS | Safe  17.8% | Obs  82.1%
+Frame   310 |  140.5 ms |   7.1 FPS | Safe  14.2% | Obs  85.7%
+Frame   315 |  149.8 ms |   6.7 FPS | Safe   2.5% | Obs  96.6%
+Frame   320 |  136.1 ms |   7.3 FPS | Safe   0.0% | Obs 100.0%
+Frame   325 |  130.4 ms |   7.7 FPS | Safe   0.0% | Obs 100.0%
+Frame   330 |  134.1 ms |   7.5 FPS | Safe   1.6% | Obs  97.7%
+Frame   335 |  146.8 ms |   6.8 FPS | Safe   9.3% | Obs  90.0%
+Frame   340 |  147.2 ms |   6.8 FPS | Safe  19.5% | Obs  80.5%
+Frame   345 |  150.3 ms |   6.7 FPS | Safe   6.9% | Obs  91.3%
+Frame   350 |  209.2 ms |   4.8 FPS | Safe   0.9% | Obs  96.0%
+Frame   355 |  145.4 ms |   6.9 FPS | Safe  18.7% | Obs  80.3%
+Frame   360 |  145.8 ms |   6.9 FPS | Safe   2.4% | Obs  94.7%
+Frame   365 |  142.9 ms |   7.0 FPS | Safe   6.4% | Obs  90.8%
+Frame   370 |  149.5 ms |   6.7 FPS | Safe   8.2% | Obs  91.3%
+Frame   375 |  144.9 ms |   6.9 FPS | Safe  11.2% | Obs  88.8%
+Frame   380 |  134.3 ms |   7.4 FPS | Safe  29.7% | Obs  70.3%
+Frame   385 |  140.9 ms |   7.1 FPS | Safe  19.9% | Obs  80.1%
+Frame   390 |  144.0 ms |   6.9 FPS | Safe   2.2% | Obs  62.5%
+Frame   395 |  131.1 ms |   7.6 FPS | Safe   4.2% | Obs  88.0%
+Frame   400 |  142.2 ms |   7.0 FPS | Safe   0.0% | Obs  95.6%
+Frame   405 |  150.5 ms |   6.6 FPS | Safe   2.9% | Obs  97.1%
+Frame   410 |  144.6 ms |   6.9 FPS | Safe   0.4% | Obs  99.6%
+Frame   415 |  149.4 ms |   6.7 FPS | Safe   3.7% | Obs  96.3%
+Frame   420 |  133.9 ms |   7.5 FPS | Safe   8.8% | Obs  91.2%
+Frame   425 |  145.7 ms |   6.9 FPS | Safe  11.1% | Obs  88.9%
+Frame   430 |  133.2 ms |   7.5 FPS | Safe   6.5% | Obs  93.5%
+Frame   435 |  138.4 ms |   7.2 FPS | Safe   5.0% | Obs  93.8%
+Frame   440 |  133.9 ms |   7.5 FPS | Safe  14.1% | Obs  85.9%
+Frame   445 |  147.3 ms |   6.8 FPS | Safe  21.5% | Obs  77.9%
+Frame   450 |  132.3 ms |   7.6 FPS | Safe  21.6% | Obs  78.4%
+Frame   455 |  131.3 ms |   7.6 FPS | Safe  30.6% | Obs  69.4%
+Frame   460 |  146.4 ms |   6.8 FPS | Safe  21.4% | Obs  74.0%
+Frame   465 |  134.1 ms |   7.5 FPS | Safe  20.5% | Obs  79.4%
+Frame   470 |  160.0 ms |   6.2 FPS | Safe  23.7% | Obs  75.7%
+Frame   475 |  148.1 ms |   6.8 FPS | Safe  17.5% | Obs  81.4%
+Frame   480 |  148.9 ms |   6.7 FPS | Safe  18.6% | Obs  80.2%
+Frame   485 |  137.5 ms |   7.3 FPS | Safe  15.2% | Obs  83.7%
+Frame   490 |  137.7 ms |   7.3 FPS | Safe  20.1% | Obs  79.9%
+Frame   495 |  145.7 ms |   6.9 FPS | Safe   3.0% | Obs  97.0%
+Frame   500 |  144.2 ms |   6.9 FPS | Safe   0.3% | Obs  98.5%
+Frame   505 |  148.3 ms |   6.7 FPS | Safe   8.7% | Obs  91.3%
+Frame   510 |  146.9 ms |   6.8 FPS | Safe   4.0% | Obs  95.2%
+Frame   515 |  145.9 ms |   6.9 FPS | Safe   2.3% | Obs  97.4%
+Frame   520 |  140.8 ms |   7.1 FPS | Safe   4.5% | Obs  95.3%
+Frame   525 |  144.6 ms |   6.9 FPS | Safe   2.7% | Obs  97.0%
+Frame   530 |  143.7 ms |   7.0 FPS | Safe   5.5% | Obs  93.3%
+Frame   535 |  163.2 ms |   6.1 FPS | Safe   3.9% | Obs  95.3%
+Frame   540 |  146.0 ms |   6.9 FPS | Safe   7.0% | Obs  92.4%
+Frame   545 |  145.0 ms |   6.9 FPS | Safe   2.8% | Obs  96.8%
+Frame   550 |  140.9 ms |   7.1 FPS | Safe   4.0% | Obs  96.0%
+Frame   555 |  142.3 ms |   7.0 FPS | Safe   4.8% | Obs  94.5%
+Frame   560 |  178.5 ms |   5.6 FPS | Safe   1.9% | Obs  93.1%
+Frame   565 |  141.4 ms |   7.1 FPS | Safe   1.9% | Obs  93.5%
+Frame   570 |  143.5 ms |   7.0 FPS | Safe   1.2% | Obs  93.5%
+Frame   575 |  145.3 ms |   6.9 FPS | Safe  14.6% | Obs  85.4%
+Frame   580 |  170.5 ms |   5.9 FPS | Safe   2.0% | Obs  95.3%
+Frame   585 |  149.2 ms |   6.7 FPS | Safe   3.5% | Obs  96.4%
+Frame   590 |  149.6 ms |   6.7 FPS | Safe   3.8% | Obs  95.6%
+Frame   595 |  151.8 ms |   6.6 FPS | Safe  14.9% | Obs  83.3%
+Frame   600 |  144.3 ms |   6.9 FPS | Safe  16.8% | Obs  82.5%
+Frame   605 |  154.1 ms |   6.5 FPS | Safe  23.2% | Obs  75.8%
+Frame   610 |  151.4 ms |   6.6 FPS | Safe   9.5% | Obs  90.2%
+Frame   615 |  146.6 ms |   6.8 FPS | Safe  14.7% | Obs  84.6%
+Frame   620 |  138.5 ms |   7.2 FPS | Safe   6.0% | Obs  91.4%
+Frame   625 |  139.3 ms |   7.2 FPS | Safe   3.6% | Obs  88.7%
+
+=======================================================
+  PERFORMANCE BENCHMARK REPORT
+=======================================================
+  Model         : SegFormer-B0 · ADE20K-512
+  Device        : cpu
+  Total Frames  : 125
+  Total Time    : 20.53 s
+  Mean FPS      : 6.09
+  Max FPS       : 7.69
+  Mean Latency  : 144.12 ms
+  P95  Latency  : 160.74 ms
+  GPU Mem (mean): 0.0 MB
+  RAM     (mean): 984.5 MB
+  Mean Trav Score : 0.0776
+  Safe  Pixels    : 8.99 %
+  Obstacle Pixels : 88.34 %
+=======================================================
+
+[Benchmarker] Saved benchmark → video_benchmark.json
+
+Output videos:
+  out_traversability.mp4
+  out_heatmap.mp4
+  video_benchmark.json
+Done.

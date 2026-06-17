@@ -1,0 +1,33 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading SegFormer: nvidia/segformer-b0-finetuned-cityscapes-512-1024
+Loading weights:   0%|          | 0/208 [00:00<?, ?it/s]Loading weights: 100%|██████████| 208/208 [00:00<00:00, 48253.05it/s]
+  SegFormer loaded on cpu
+Processing 1214 frames  (1280x720 @ 30.2 fps)
+  SegFormer: real model
+  YOLO:      disabled
+  50/1214 (4%)  SAFE - TURN LEFT  offset=-0.090
+  100/1214 (8%)  SAFE - FORWARD  offset=-0.012
+  150/1214 (12%)  SAFE - TURN LEFT  offset=-0.078
+  200/1214 (16%)  SAFE - FORWARD  offset=-0.027
+  250/1214 (21%)  SAFE - TURN LEFT  offset=-0.107
+  300/1214 (25%)  SAFE - TURN LEFT  offset=-0.056
+  350/1214 (29%)  SAFE - TURN LEFT  offset=-0.048
+  400/1214 (33%)  SAFE - TURN LEFT  offset=-0.091
+  450/1214 (37%)  SAFE - FORWARD  offset=-0.017
+  500/1214 (41%)  SAFE - TURN LEFT  offset=-0.059
+  550/1214 (45%)  SAFE - FORWARD  offset=-0.032
+  600/1214 (49%)  SAFE - FORWARD  offset=-0.040
+  650/1214 (54%)  SAFE - FORWARD  offset=-0.004
+  700/1214 (58%)  SAFE - TURN LEFT  offset=-0.055
+  750/1214 (62%)  SAFE - TURN LEFT  offset=-0.057
+  800/1214 (66%)  SAFE - FORWARD  offset=-0.016
+  850/1214 (70%)  SAFE - TURN LEFT  offset=-0.054
+  900/1214 (74%)  SAFE - FORWARD  offset=-0.030
+  950/1214 (78%)  SAFE - TURN LEFT  offset=-0.071
+  1000/1214 (82%)  SAFE - TURN LEFT  offset=-0.103
+  1050/1214 (86%)  SAFE - TURN LEFT  offset=-0.040
+  1100/1214 (91%)  SAFE - TURN LEFT  offset=-0.073
+  1150/1214 (95%)  SAFE - FORWARD  offset=-0.021
+  1200/1214 (99%)  SAFE - FORWARD  offset=-0.024
+
+Done -> output_dataset1.mp4  (1214 frames)

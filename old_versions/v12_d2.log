@@ -1,0 +1,36 @@
+[SEG] Loading: nvidia/segformer-b0-finetuned-cityscapes-512-1024
+Loading weights:   0%|          | 0/208 [00:00<?, ?it/s]Loading weights: 100%|██████████| 208/208 [00:00<00:00, 83150.52it/s]
+[SEG] Loaded on cpu
+
+============================================================
+  V12 Ego-Motion (Pixel-Level SegFormer) Pipeline
+  Input:  00a1176f-5121b501.mov
+  Output: output_v12_dataset2.mp4
+============================================================
+
+  50/1211 (4%)  TURN RIGHT  off=+0.066
+  100/1211 (8%)  TURN RIGHT  off=+0.051
+  150/1211 (12%)  STRAIGHT  off=+0.049
+  200/1211 (17%)  STRAIGHT  off=+0.028
+  250/1211 (21%)  TURN RIGHT  off=+0.069
+  300/1211 (25%)  STRAIGHT  off=+0.045
+  350/1211 (29%)  TURN RIGHT  off=+0.117
+  400/1211 (33%)  TURN RIGHT  off=+0.055
+  450/1211 (37%)  STRAIGHT  off=+0.011
+  500/1211 (41%)  STRAIGHT  off=-0.031
+  550/1211 (45%)  STRAIGHT  off=+0.002
+  600/1211 (50%)  TURN RIGHT  off=+0.050
+  650/1211 (54%)  STRAIGHT  off=+0.035
+  700/1211 (58%)  STRAIGHT  off=+0.015
+  750/1211 (62%)  STRAIGHT  off=+0.019
+  800/1211 (66%)  STRAIGHT  off=+0.018
+  850/1211 (70%)  STRAIGHT  off=+0.018
+  900/1211 (74%)  STRAIGHT  off=+0.015
+  950/1211 (78%)  STRAIGHT  off=+0.014
+  1000/1211 (83%)  STRAIGHT  off=+0.011
+  1050/1211 (87%)  TURN RIGHT  off=+0.076
+  1100/1211 (91%)  STRAIGHT  off=+0.048
+  1150/1211 (95%)  STRAIGHT  off=+0.017
+  1200/1211 (99%)  STRAIGHT  off=+0.011
+
+Done -> output_v12_dataset2.mp4  (1211 frames in 244.1s)

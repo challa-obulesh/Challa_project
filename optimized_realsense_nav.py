@@ -63,7 +63,8 @@ from traversability_scorer import (
     build_traversable_mask,
     build_obstacle_mask,
     build_heatmap,
-    overlay_heatmap,
+    overlay_heatmap,el
+No m
     score_map_stats,
 )
 from benchmarker import Benchmarker
@@ -216,7 +217,9 @@ try:
         safe_floor = traversable_mask
 
         # ── Histogram Path Planner ────────────────────────
-        nav_zone  = safe_floor[h - 120:h, :]
+        nav_zone  = safe_floor[h - 120:h, :]cd ~/Downloads/'Antigravity IDE (1)'/'Antigravity IDE'
+
+./antigravity-ide --no-sandbox
         histogram = np.sum(nav_zone == 255, axis=0).astype(np.float32)
         histogram = cv2.GaussianBlur(
             histogram.reshape(1, -1), (35, 1), 0

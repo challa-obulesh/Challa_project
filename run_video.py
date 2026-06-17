@@ -53,13 +53,26 @@ parser.add_argument(
     "--alpha", type=float, default=0.45,
     help="Heatmap overlay alpha (0-1)"
 )
+parser.add_argument(
+    "--dataset", type=str, default="ade20k", choices=["ade20k", "cityscapes"],
+    help="Which model and score map to use"
+)
 args = parser.parse_args()
 
 VIDEO_PATH    = args.video
 FRAME_SKIP    = args.skip
 HEATMAP_ALPHA = args.alpha
-MODEL_NAME    = "nvidia/segformer-b0-finetuned-ade-512-512"
-OUTPUT_JSON   = "video_benchmark.json"
+DATASET       = args.dataset
+
+if DATASET == "cityscapes":
+    MODEL_NAME = "nvidia/segformer-b0-finetuned-cityscapes-1024-1024"
+else:
+    MODEL_NAME = "nvidia/segformer-b0-finetuned-ade-512-512"
+
+base_name = os.path.splitext(os.path.basename(VIDEO_PATH))[0]
+OUTPUT_TRAV   = f"{base_name}_{DATASET}_traversability.mp4"
+OUTPUT_HEAT   = f"{base_name}_{DATASET}_heatmap.mp4"
+OUTPUT_JSON   = f"{base_name}_{DATASET}_benchmark.json"
 
 # ─────────────────────────────────────────────────────
 #  Load Model
@@ -69,10 +82,10 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
 
 processor = SegformerImageProcessor.from_pretrained(
-    MODEL_NAME, local_files_only=True
+    MODEL_NAME, local_files_only=False
 )
 model = SegformerForSemanticSegmentation.from_pretrained(
-    MODEL_NAME, local_files_only=True
+    MODEL_NAME, local_files_only=False
 )
 model.to(device).eval()
 print("Model loaded.")
@@ -89,9 +102,9 @@ w_src   = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 h_src   = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 fourcc  = cv2.VideoWriter_fourcc(*"mp4v")
-writer_main    = cv2.VideoWriter("out_traversability.mp4", fourcc,
+writer_main    = cv2.VideoWriter(OUTPUT_TRAV, fourcc,
                                  fps_src / FRAME_SKIP, (w_src, h_src))
-writer_heatmap = cv2.VideoWriter("out_heatmap.mp4", fourcc,
+writer_heatmap = cv2.VideoWriter(OUTPUT_HEAT, fourcc,
                                  fps_src / FRAME_SKIP, (w_src, h_src))
 
 bench     = Benchmarker(device_name=str(device))
@@ -127,7 +140,7 @@ while True:
     seg_map = cv2.resize(seg_map, (w, h), interpolation=cv2.INTER_NEAREST)
 
     # ── Traversability Pipeline ───────────────────────
-    score_map        = build_score_map(seg_map)
+    score_map        = build_score_map(seg_map, dataset=DATASET)
     traversable_mask = build_traversable_mask(score_map)
     obstacle_mask    = build_obstacle_mask(score_map)
     heatmap          = build_heatmap(score_map)
@@ -167,6 +180,15 @@ while True:
         cv2.putText(display, line, (12, 32 + i * 28),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.65, (0, 255, 255), 2)
 
+    # Add legend
+    cv2.rectangle(display, (10, h - 90), (200, h - 25), (0, 0, 0), -1)
+    cv2.circle(display, (25, h - 70), 8, (0, 200, 0), -1)
+    cv2.putText(display, "Traversable", (40, h - 65),
+                cv2.FONT_HERSHEY_SIMPLEX, 0.45, (255, 255, 255), 1)
+    cv2.circle(display, (25, h - 45), 8, (0, 0, 200), -1)
+    cv2.putText(display, "Obstacle", (40, h - 40),
+                cv2.FONT_HERSHEY_SIMPLEX, 0.45, (255, 255, 255), 1)
+
     cv2.putText(display,
                 "SegFormer-B0 | Semantic Traversability | IEEE",
                 (12, h - 12),
@@ -183,7 +205,7 @@ bench.print_summary()
 bench.save(OUTPUT_JSON)
 
 print("\nOutput videos:")
-print("  out_traversability.mp4")
-print("  out_heatmap.mp4")
+print(f"  {OUTPUT_TRAV}")
+print(f"  {OUTPUT_HEAT}")
 print(f"  {OUTPUT_JSON}")
 print("Done.")

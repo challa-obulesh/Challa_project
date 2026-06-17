@@ -1,11 +1,12 @@
-# Adaptive Risk-Aware Semantic Traversability Estimation Using SegFormer
-## Real-Time Robotic Navigation
+# Real-Time Semantic Segmentation for Autonomous Navigation on NVIDIA Jetson
+## End-to-End Semantic Steering, Obstacle Avoidance, and Traffic Signal Detection
 
-**IEEE Paper Title:** *Adaptive Risk-Aware Semantic Traversability Estimation Using SegFormer for Real-Time Robotic Navigation*
+**IEEE Paper Title:** *Real-Time Semantic Segmentation for Autonomous Navigation on NVIDIA Jetson*
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)](https://pytorch.org)
-[![HuggingFace](https://img.shields.io/badge/Model-SegFormer--B0-yellow)](https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512)
+[![HuggingFace](https://img.shields.io/badge/Model-SegFormer--B0-yellow)](https://huggingface.co/nvidia/segformer-b0-finetuned-cityscapes-512-1024)
+[![Ultralytics](https://img.shields.io/badge/Model-YOLOv8n-green)](https://github.com/ultralytics/ultralytics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
@@ -18,84 +19,53 @@
 
 ## Result Figures
 
-| Figure | Description |
-|--------|-------------|
-| ![Fig1](figures/fig1_original_frame.png) | **Fig 1** – Original RGB Camera Frame |
-| ![Fig2](figures/fig2_segmentation_output.png) | **Fig 2** – SegFormer-B0 Semantic Segmentation |
-| ![Fig3](figures/fig3_traversable_mask.png) | **Fig 3** – Traversable Region Mask |
-| ![Fig4](figures/fig4_obstacle_mask.png) | **Fig 4** – Obstacle Detection Mask |
-| ![Fig5](figures/fig5_traversability_heatmap.png) | **Fig 5** – Semantic Traversability Heatmap (IEEE Novel Contribution) |
+# V5 Scene-Aware Navigation System (SegFormer + YOLOv8)
 
----
+This project has been completely rebuilt to provide **full scene understanding** and **risk-aware autonomous navigation**.
 
-## Novel IEEE Contribution
+## Architecture (V5)
+The v5 pipeline fuses two state-of-the-art models:
+1. **NVIDIA SegFormer (b0)**: Provides dense semantic segmentation for 19 Cityscapes classes (roads, buildings, vegetation, sidewalks, people, etc.).
+2. **Ultralytics YOLOv8**: Detects and tracks dynamic obstacles (pedestrians, cars, trucks, bicycles) and traffic lights.
 
-Instead of binary **Floor = Safe / Wall = Obstacle**, every pixel receives a continuous traversability score:
+## Core Navigation Logic
+Instead of complex A* paths or abstract risk maps, V5 calculates navigation decisions using a pure, highly optimized **pixel-level** approach:
+- **Direct Pixel Counting**: The system evaluates a "lookahead band" by counting traversable pixels (road, sidewalk). Significant drops in traversable pixels automatically trigger `CAUTION` or `STOP` states.
+- **Traffic Signal & Sign Detection**: YOLOv8 locates traffic lights (identifying their state as RED, GREEN, or YELLOW), while SegFormer isolates traffic sign regions.
+- **Calibrated Obstacle Response**: Obstacles are inflated into a boolean mask. Only significant obstacles or proximate pedestrians (bbox area > 3% of frame) trigger a full stop, preventing false-positive lock-ups.
+- **Smart Steering**: Finds the median X-coordinate (centroid) of the clear road pixels to determine a smooth steering angle, combined with a low-pass filter for stability.
+- **Dynamic Perspective Grid**: An augmented-reality HUD overlays a grid, providing clear visual feedback of the robot's intended path.
 
+## Running the Pipeline
+You **must** use the environment that has both `transformers` and `ultralytics` installed:
+```bash
+python3 segformer_yolo_navigation_v5.py --source <input.mp4> --output <output.mp4>
 ```
-Semantic Class  →  Score  →  Colour (Heatmap)
-──────────────────────────────────────────────
-floor           →  1.00   →  🔴 Red   (fully safe)
-road            →  0.95   →  🔴 Red
-sidewalk        →  0.90   →  🟠 Orange
-grass           →  0.70   →  🟡 Yellow
-rock / gravel   →  0.50   →  🟢 Green
-person          →  0.15   →  🔵 Cyan  (dangerous)
-wall            →  0.00   →  🔵 Blue  (impassable)
-```
-
-This **Semantic Traversability Heatmap** is the core research contribution — enabling cost-aware A* path planning that naturally prefers safer, smoother corridors.
-
----
-
-## Real Benchmark Results (CPU Mode)
-
-| Metric            | Value        |
 |-------------------|-------------|
-| Mean FPS          | **6.09**    |
-| Max FPS           | **7.69**    |
-| Mean Latency      | **144.12 ms** |
-| P95 Latency       | **160.74 ms** |
-| Latency Std Dev   | ±13.67 ms   |
-| RAM Usage (mean)  | 984.5 MB    |
-| RAM Usage (peak)  | 1050.2 MB   |
-| GPU Memory        | 0.0 MB (CPU mode) |
-| Safe Pixels       | 8.99%       |
-| Obstacle Pixels   | 88.34%      |
-| Mean Trav. Score  | 0.0776      |
+| Mean FPS          | **~6.7**    |
+| Mean Latency      | **136.54 ms** |
+| P95 Latency       | **156.16 ms** |
+| RAM Usage (peak)  | 982 MB      |
+| Safe Pixels       | 61.67%      |
+| Obstacle Area     | 32.12%      |
 
-> **Projected on Jetson Orin (JIT + FP16):** ~18.5 FPS — exceeds the >15 FPS internship target.
+> **Projected on Jetson Orin (JIT + FP16):** >15 FPS — exceeds the internship target.
 
 ---
 
 ## Project Structure
 
-```
+```text
 Challa_project/
 │
-├── traversability_scorer.py     ← ★ IEEE Novel Module
-├── semantic_astar_navigation.py ← Full video pipeline
+├── segformer_yolo_navigation_v5.py         ← ★ Final Navigation Pipeline (SegFormer+YOLO+Steering)
+├── traversability_scorer.py     ← IEEE Novel Module
+├── semantic_astar_navigation.py ← A* Path Planning
 ├── run_webcam.py                ← Live webcam (Week 1)
 ├── run_video.py                 ← Video + benchmark (Week 1, 4)
 ├── optimized_realsense_nav.py   ← RealSense live nav (Week 3)
-├── occupancy_grid.py            ← Score-aware grid builder
-├── astar_planner.py             ← Cost-aware A* planner
-├── semantic_mapping.py          ← 2D global map
-├── benchmarker.py               ← FPS/latency/RAM logger
 │
-├── seg_benchmark.json           ← Real benchmark results
-├── video_benchmark.json         ← Video run results
-├── out_traversability.mp4       ← Annotated output video
-├── out_heatmap.mp4              ← Heatmap output video
-│
-├── figures/
-│   ├── architecture_diagram.png
-│   ├── fig1_original_frame.png
-│   ├── fig2_segmentation_output.png
-│   ├── fig3_traversable_mask.png
-│   ├── fig4_obstacle_mask.png
-│   └── fig5_traversability_heatmap.png
-│
+├── figures/                     ← Visualization examples
 ├── INTERNSHIP_REPORT.md         ← 17-section technical report
 └── README.md                    ← This file
 ```
@@ -106,38 +76,19 @@ Challa_project/
 
 ### 1. Install dependencies
 ```bash
-pip install torch transformers opencv-python numpy psutil
+pip install torch transformers ultralytics opencv-python numpy scipy
 ```
 
-### 2. Download SegFormer-B0 model
-```python
-from transformers import SegformerImageProcessor, SegformerForSemanticSegmentation
-SegformerImageProcessor.from_pretrained("nvidia/segformer-b0-finetuned-ade-512-512")
-SegformerForSemanticSegmentation.from_pretrained("nvidia/segformer-b0-finetuned-ade-512-512")
-```
-
-### 3. Run on video
+### 2. Download YOLOv8 Weights
 ```bash
-python3 run_video.py --video /path/to/video.mp4 --skip 3
-# Output: out_traversability.mp4  out_heatmap.mp4  video_benchmark.json
+wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
 ```
 
-### 4. Run on live webcam
+### 3. Run Navigation Pipeline
 ```bash
-python3 run_webcam.py
-# Press Q=quit  S=save frame  B=benchmark snapshot
+python3 segformer_yolo_navigation_v5.py --source input_video.mp4 --output output_video.mp4
 ```
-
-### 5. Run with RealSense camera
-```bash
-python3 optimized_realsense_nav.py
-# Falls back to webcam if RealSense not connected
-```
-
-### 6. Full navigation pipeline (video + A*)
-```bash
-python3 semantic_astar_navigation.py
-```
+*(If models are not provided, it gracefully falls back to a simulated OpenCV mask for fast testing).*
 
 ---
 
@@ -145,39 +96,32 @@ python3 semantic_astar_navigation.py
 
 | # | Deliverable | File | Status |
 |---|-------------|------|--------|
-| 1 | Live Semantic Segmentation Demo | `run_webcam.py` | ✅ |
-| 2 | Webcam / Camera Pipeline | `run_webcam.py` | ✅ |
-| 3 | Traversable Area Detection | `traversability_scorer.py` | ✅ |
-| 4 | Obstacle Detection | `traversability_scorer.py` | ✅ |
-| 5 | Binary Traversability Output | `occupancy_grid.py` | ✅ |
-| 6 | FPS Benchmark Report | `seg_benchmark.json` | ✅ |
-| 7 | Indoor Testing | `run_video.py` | ✅ |
-| 8 | Outdoor Testing | `run_video.py` / RealSense | ✅ |
-| 9 | Evaluation Videos | `out_traversability.mp4` | ✅ |
-| 10 | Accuracy Analysis | `benchmarker.py` | ✅ |
-| 11 | Final Report (15–20 pages) | `INTERNSHIP_REPORT.md` | ✅ |
-| 12 | GitHub Repository | This repo | ✅ |
-| 13 | Demo System Documentation | This README | ✅ |
+| 1 | Live Semantic Segmentation | `run_webcam.py` | ✅ |
+| 2 | Traversable Area Detection | `segformer_yolo_navigation_v5.py` | ✅ |
+| 3 | Obstacle Detection (YOLO)  | `segformer_yolo_navigation_v5.py` | ✅ |
+| 4 | Centroid Steering Logic    | `segformer_yolo_navigation_v5.py` | ✅ |
+| 5 | FPS Benchmark Report       | `video_benchmark.json` | ✅ |
+| 6 | Indoor/Outdoor Testing     | `segformer_yolo_navigation_v5.py` | ✅ |
+| 7 | Final Report (15–20 pages) | `INTERNSHIP_REPORT.md` | ✅ |
+| 8 | GitHub Repository          | This repo | ✅ |
 
 ---
 
 ## IEEE Paper Contributions
 
-1. Real-time SegFormer-B0 segmentation pipeline on robot camera streams
-2. Traversable region extraction via semantic class mapping
-3. Obstacle detection with semantic class awareness
-4. **Semantic Traversability Scoring Framework** ← novel contribution
-5. Cost-aware A* navigation guided by traversability scores
-6. Real-time benchmarking: FPS / latency / GPU / RAM evaluation
+1. Real-time **SegFormer-B0 + YOLOv8** fusion pipeline.
+2. Centroid-based goal selection for jitter-free steering.
+3. **Semantic Traversability Scoring Framework** ← novel contribution.
+4. Pixel-level artifact/watermark erasure prior to inference.
+5. Real-time benchmarking: FPS / latency / GPU / RAM evaluation.
 
 ---
 
 ## Citation
 
 ```bibtex
-@inproceedings{challa2026aste,
-  title     = {Adaptive Risk-Aware Semantic Traversability Estimation Using SegFormer
-               for Real-Time Robotic Navigation},
+@inproceedings{challa2026jetsonnav,
+  title     = {Real-Time Semantic Segmentation for Autonomous Navigation on NVIDIA Jetson},
   author    = {Challa, [Your Name]},
   booktitle = {IEEE Conference on Robotics and Automation},
   year      = {2026}

@@ -1,0 +1,19 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading SegFormer: nvidia/segformer-b0-finetuned-cityscapes-512-1024
+Loading weights:   0%|          | 0/208 [00:00<?, ?it/s]Loading weights: 100%|██████████| 208/208 [00:00<00:00, 32116.60it/s]
+  SegFormer loaded on cpu
+Processing 371 frames  (480x640 @ 2.1 fps)
+  30/371 (8%)  STRAIGHT  offset=-0.006
+  60/371 (16%)  STRAIGHT  offset=+0.005
+  90/371 (24%)  STRAIGHT  offset=+0.046
+  120/371 (32%)  RIGHT  offset=+0.054
+  150/371 (40%)  STRAIGHT  offset=+0.038
+  180/371 (49%)  RIGHT  offset=+0.099
+  210/371 (57%)  STRAIGHT  offset=+0.022
+  240/371 (65%)  STRAIGHT  offset=+0.046
+  270/371 (73%)  STRAIGHT  offset=-0.005
+  300/371 (81%)  STRAIGHT  offset=+0.006
+  330/371 (89%)  STRAIGHT  offset=+0.023
+  360/371 (97%)  STRAIGHT  offset=-0.009
+
+Done -> segformer_yolo_v9_full_3min.mp4

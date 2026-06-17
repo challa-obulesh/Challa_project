@@ -65,6 +65,35 @@ ADE_TRAVERSABILITY_SCORES = {
     59:  0.00,  # stairs (alt)
 }
 
+# ─────────────────────────────────────────────
+#  Cityscapes  Traversability Score Table
+# ─────────────────────────────────────────────
+CITYSCAPES_TRAVERSABILITY_SCORES = {
+    0:  0.95,  # road
+    1:  0.90,  # sidewalk
+    9:  0.70,  # terrain
+    8:  0.60,  # vegetation
+    
+    # ── Uncertain / dynamic ──────────────────────
+    11: 0.15,  # person
+    12: 0.15,  # rider
+    13: 0.10,  # car
+    14: 0.10,  # truck
+    15: 0.10,  # bus
+    16: 0.10,  # train
+    17: 0.10,  # motorcycle
+    18: 0.10,  # bicycle
+    
+    # ── Hard obstacles / non-traversable ─────────
+    2:  0.00,  # building
+    3:  0.00,  # wall
+    4:  0.00,  # fence
+    5:  0.00,  # pole
+    6:  0.00,  # traffic light
+    7:  0.00,  # traffic sign
+    10: 0.00,  # sky
+}
+
 # Default score for classes not in the table.
 # 0.3 = uncertain / treat with caution.
 DEFAULT_SCORE = 0.3
@@ -79,7 +108,7 @@ def get_traversability_score(class_id: int) -> float:
     return ADE_TRAVERSABILITY_SCORES.get(int(class_id), DEFAULT_SCORE)
 
 
-def build_score_map(seg_map: np.ndarray) -> np.ndarray:
+def build_score_map(seg_map: np.ndarray, dataset: str = "ade20k") -> np.ndarray:
     """
     Convert a 2-D integer segmentation label map (H×W) into a
     floating-point traversability score map (H×W, float32, range 0–1).
@@ -87,7 +116,9 @@ def build_score_map(seg_map: np.ndarray) -> np.ndarray:
     Parameters
     ----------
     seg_map : np.ndarray  shape (H, W), dtype int/uint8
-        Per-pixel ADE20K class labels from SegFormer.
+        Per-pixel class labels from SegFormer.
+    dataset : str
+        Which label mapping to use ("ade20k" or "cityscapes").
 
     Returns
     -------
@@ -96,7 +127,9 @@ def build_score_map(seg_map: np.ndarray) -> np.ndarray:
     """
     score_map = np.full(seg_map.shape, DEFAULT_SCORE, dtype=np.float32)
 
-    for cls_id, score in ADE_TRAVERSABILITY_SCORES.items():
+    score_dict = CITYSCAPES_TRAVERSABILITY_SCORES if dataset == "cityscapes" else ADE_TRAVERSABILITY_SCORES
+
+    for cls_id, score in score_dict.items():
         score_map[seg_map == cls_id] = score
 
     return score_map
@@ -142,9 +175,11 @@ def build_heatmap(score_map: np.ndarray) -> np.ndarray:
     # Normalise to 0–255 uint8
     score_uint8 = (score_map * 255).clip(0, 255).astype(np.uint8)
 
-    # Apply OpenCV JET colormap (blue=low, red=high)
-    # Then invert so that red = safe (high score) which is intuitive
-    heatmap = cv2.applyColorMap(score_uint8, cv2.COLORMAP_JET)
+    # Invert so high score (safe) = blue, low score (obstacle) = red
+    score_inverted = 255 - score_uint8
+    
+    # Apply OpenCV JET colormap
+    heatmap = cv2.applyColorMap(score_inverted, cv2.COLORMAP_JET)
 
     return heatmap
 

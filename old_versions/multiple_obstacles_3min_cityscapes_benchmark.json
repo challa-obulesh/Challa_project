@@ -1,0 +1,30 @@
+{
+  "model": "SegFormer-B0 \u00b7 ADE20K-512",
+  "device": "cpu",
+  "total_frames": 371,
+  "total_time_s": 279.85,
+  "fps": {
+    "mean": 1.33,
+    "max": 8.23
+  },
+  "latency_ms": {
+    "mean": 737.9,
+    "std": 688.68,
+    "min": 121.53,
+    "max": 2031.42,
+    "p95": 1820.04
+  },
+  "gpu_memory_mb": {
+    "mean": 0.0,
+    "max": 0.0
+  },
+  "ram_mb": {
+    "mean": 1004.0,
+    "max": 1059.3
+  },
+  "traversability": {
+    "mean_score": 0.5805,
+    "safe_pixel_pct": 51.11,
+    "obstacle_pixel_pct": 33.46
+  }
+}

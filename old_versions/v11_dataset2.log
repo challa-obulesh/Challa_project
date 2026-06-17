@@ -1,0 +1,42 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[SEG] Loading: nvidia/segformer-b0-finetuned-cityscapes-512-1024
+Loading weights:   0%|          | 0/208 [00:00<?, ?it/s]Loading weights: 100%|██████████| 208/208 [00:00<00:00, 73497.49it/s]
+[SEG] Loaded on cpu  (19 classes)
+[YOLO] Loading: yolov8n.pt
+[YOLO] Loaded  (6 relevant classes)
+
+============================================================
+  V11 Scene-Aware Navigation Pipeline
+  Input:    00a1176f-5121b501.mov
+  Output:   output_v11_dataset2.mp4
+  Frames:   1211  (1280x720 @ 30.1 fps)
+  SegFormer: REAL MODEL
+  YOLO:      REAL MODEL
+============================================================
+
+  50/1211 (4%)  SAFE - TURN RIGHT  offset=+0.123  risk=LOW  obs=9
+  100/1211 (8%)  SAFE - TURN RIGHT  offset=+0.105  risk=LOW  obs=5
+  150/1211 (12%)  SAFE - TURN RIGHT  offset=+0.153  risk=LOW  obs=10
+  200/1211 (17%)  SAFE - FORWARD  offset=-0.037  risk=MED  obs=9
+  250/1211 (21%)  SAFE - FORWARD  offset=-0.007  risk=MED  obs=8
+  300/1211 (25%)  SAFE - TURN RIGHT  offset=+0.077  risk=LOW  obs=4
+  350/1211 (29%)  SAFE - TURN RIGHT  offset=+0.243  risk=LOW  obs=8
+  400/1211 (33%)  SAFE - TURN RIGHT  offset=+0.082  risk=MED  obs=11
+  450/1211 (37%)  SAFE - TURN RIGHT  offset=+0.052  risk=LOW  obs=4
+  500/1211 (41%)  SAFE - FORWARD  offset=+0.007  risk=MED  obs=4
+  550/1211 (45%)  SAFE - FORWARD  offset=+0.011  risk=MED  obs=4
+  600/1211 (50%)  SAFE - TURN LEFT  offset=-0.086  risk=LOW  obs=2
+  650/1211 (54%)  SAFE - TURN LEFT  offset=-0.067  risk=LOW  obs=2
+  700/1211 (58%)  SAFE - TURN LEFT  offset=-0.061  risk=LOW  obs=4
+  750/1211 (62%)  SAFE - TURN LEFT  offset=-0.058  risk=MED  obs=2
+  800/1211 (66%)  SAFE - TURN LEFT  offset=-0.059  risk=LOW  obs=3
+  850/1211 (70%)  SAFE - TURN LEFT  offset=-0.055  risk=MED  obs=3
+  900/1211 (74%)  CAUTION - SLOW  offset=-0.016  risk=MED  obs=12
+  950/1211 (78%)  CAUTION - SLOW  offset=-0.044  risk=MED  obs=8
+  1000/1211 (83%)  CAUTION - SLOW  offset=-0.082  risk=MED  obs=8
+  1050/1211 (87%)  CAUTION - SLOW  offset=-0.018  risk=MED  obs=7
+  1100/1211 (91%)  CAUTION - SLOW  offset=+0.065  risk=MED  obs=9
+  1150/1211 (95%)  CAUTION - SLOW  offset=-0.011  risk=MED  obs=11
+  1200/1211 (99%)  CAUTION - SLOW  offset=-0.050  risk=MED  obs=7
+
+Done -> output_v11_dataset2.mp4  (1211 frames in 252.0s)
