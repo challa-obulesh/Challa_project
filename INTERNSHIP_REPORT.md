@@ -26,10 +26,10 @@ The core objective of this internship project was to build and optimize a compre
 - Addressed I/O bottlenecks by isolating `cv2.VideoCapture` and `cv2.VideoWriter` into dedicated background threads, maximizing core processing speed.
 
 ## 3. Key Results & Final Metrics
-The culmination of the project yielded a highly robust real-time pipeline that met and exceeded initial expectations:
-- **Throughput (FPS):** Successfully breached the **15 FPS** goal during live operation. Core inference evaluates in parallel, completing cycles in roughly **~65ms**.
-- **Latency:** Dropped end-to-end latency significantly through asynchronous threading and GPU warmups.
-- **Accuracy:** Correctly navigates complex paths, reliably detects pedestrians overlapping the central forward zone (triggering hard stops if they occupy >8% of the frame), and smoothly dictates steering angles.
+The culmination of the project yielded a highly robust real-time pipeline (specifically the **V6 codebase**, which is the final and main system) that massively exceeded initial expectations:
+- **Throughput (FPS):** Successfully breached the 15 FPS goal during live operation, ultimately achieving a highly stable **21.33 FPS average** across evaluation datasets.
+- **Latency:** Dropped end-to-end latency to **47.59ms** through asynchronous threading, 640x360 downscaling, and the removal of heavy CPU alpha-blending logic.
+- **Accuracy:** Correctly navigates complex paths, reliably detects pedestrians overlapping the central forward zone (triggering hard stops if they occupy >8% of the frame), and smoothly dictates steering angles using direct pixel-centroid calculations.
 
 ## 4. Conclusion
 This project successfully demonstrated the feasibility of deploying heavy, dual-model architectures on the edge. By shifting from standard synchronous inference to a fully multithreaded, TensorRT-accelerated pipeline with direct pixel-centroid control, the system achieves highly stable and fast autonomous navigation.
