@@ -1,0 +1,31 @@
+--- src/segformer_yolo_navigation_v5.py
++++ src/segformer_yolo_navigation_v5.py
+@@ -628,14 +628,21 @@
+     """Process a single frame with concurrent YOLO + SegFormer inference."""
+ 
+     # ── Concurrent inference: YOLO and SegFormer in parallel ──────────────
++    t0 = time.time()
+     future_seg  = _executor.submit(run_segformer, frame_bgr, processor, seg_model, device)
+     future_yolo = _executor.submit(build_obstacle_mask, frame_bgr, yolo_model)
+ 
+     # Wait for both to complete
+     label_map = future_seg.result()
+     obstacle_mask, person_in_fwd, fwd_obs_ratio, traffic_lights = future_yolo.result()
++    t1 = time.time()
+ 
+     # A2 — Extract sign boards from SegFormer map
+     boards = extract_boards_from_seg(label_map)
++    t2 = time.time()
+ 
+     # C — Navigation decision from pixel centroids
+     nav = navigation_decision(
+@@ -643,9 +650,13 @@
+         fwd_obs_ratio, frame_bgr.shape)
++    t3 = time.time()
+ 
+     # D — Pixel-level render
+     out = render_pixel_level(frame_bgr, label_map, obstacle_mask, nav, traffic_lights, boards)
++    t4 = time.time()
++    # print(f"Infer: {(t1-t0)*1000:.1f}ms, Boards: {(t2-t1)*1000:.1f}ms, Nav: {(t3-t2)*1000:.1f}ms, Render: {(t4-t3)*1000:.1f}ms")
+ 
+     return out, nav

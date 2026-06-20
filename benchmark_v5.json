@@ -1,0 +1,7268 @@
+{
+  "input_file": "01c4035b-bcaeb067.mov",
+  "input_resolution": "1280x720",
+  "total_frames_processed": 1209,
+  "summary": {
+    "avg_fps": 11.659256688048828,
+    "min_fps": 8.136601188005105,
+    "max_fps": 18.956706454485055
+  },
+  "target_fps": 15,
+  "target_met": false,
+  "per_frame": [
+    {
+      "frame_idx": 0,
+      "fps": 10.926906534045763,
+      "total_ms": 91.51721000671387,
+      "status": "STOP"
+    },
+    {
+      "frame_idx": 1,
+      "fps": 11.755501058030521,
+      "total_ms": 85.06655693054199,
+      "status": "STOP"
+    },
+    {
+      "frame_idx": 2,
+      "fps": 12.674446855188169,
+      "total_ms": 78.89890670776367,
+      "status": "STOP"
+    },
+    {
+      "frame_idx": 3,
+      "fps": 11.71374072450128,
+      "total_ms": 85.36982536315918,
+      "status": "STOP"
+    },
+    {
+      "frame_idx": 4,
+      "fps": 11.202944499496517,
+      "total_ms": 89.26224708557129,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 5,
+      "fps": 9.108844320415232,
+      "total_ms": 109.78341102600098,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 6,
+      "fps": 9.236073125723925,
+      "total_ms": 108.27112197875977,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 7,
+      "fps": 12.237210795040117,
+      "total_ms": 81.71796798706055,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 8,
+      "fps": 9.72522323033011,
+      "total_ms": 102.82540321350098,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 9,
+      "fps": 9.685630097634421,
+      "total_ms": 103.24573516845703,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 10,
+      "fps": 10.127304072358859,
+      "total_ms": 98.74296188354492,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 11,
+      "fps": 9.948397318823735,
+      "total_ms": 100.51870346069336,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 12,
+      "fps": 10.542399038836146,
+      "total_ms": 94.85507011413574,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 13,
+      "fps": 15.211800077613,
+      "total_ms": 65.73843955993652,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 14,
+      "fps": 16.425255622520627,
+      "total_ms": 60.881853103637695,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 15,
+      "fps": 15.214669447719235,
+      "total_ms": 65.72604179382324,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 16,
+      "fps": 18.956706454485055,
+      "total_ms": 52.751779556274414,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 17,
+      "fps": 14.146146011102942,
+      "total_ms": 70.69063186645508,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 18,
+      "fps": 11.764667603508387,
+      "total_ms": 85.00027656555176,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 19,
+      "fps": 13.059451380888627,
+      "total_ms": 76.57289505004883,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 20,
+      "fps": 12.034649473916774,
+      "total_ms": 83.09340476989746,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 21,
+      "fps": 10.926365696720245,
+      "total_ms": 91.5217399597168,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 22,
+      "fps": 10.420889959999005,
+      "total_ms": 95.96109390258789,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 23,
+      "fps": 10.778254892135323,
+      "total_ms": 92.77939796447754,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 24,
+      "fps": 11.493070131692159,
+      "total_ms": 87.00895309448242,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 25,
+      "fps": 9.86001857141178,
+      "total_ms": 101.41968727111816,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 26,
+      "fps": 9.966457720474667,
+      "total_ms": 100.33655166625977,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 27,
+      "fps": 9.73163154267895,
+      "total_ms": 102.75769233703613,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 28,
+      "fps": 10.29683875101574,
+      "total_ms": 97.11718559265137,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 29,
+      "fps": 13.570988533119355,
+      "total_ms": 73.68659973144531,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 30,
+      "fps": 10.02067540286455,
+      "total_ms": 99.79367256164551,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 31,
+      "fps": 11.224590615809094,
+      "total_ms": 89.09010887145996,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 32,
+      "fps": 11.546477120692408,
+      "total_ms": 86.60650253295898,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 33,
+      "fps": 10.222853758466634,
+      "total_ms": 97.82004356384277,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 34,
+      "fps": 10.161112456998886,
+      "total_ms": 98.41442108154297,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 35,
+      "fps": 12.036410803861473,
+      "total_ms": 83.08124542236328,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 36,
+      "fps": 13.858916280898617,
+      "total_ms": 72.15571403503418,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 37,
+      "fps": 10.804715192482071,
+      "total_ms": 92.55218505859375,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 38,
+      "fps": 10.572693976219465,
+      "total_ms": 94.58327293395996,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 39,
+      "fps": 10.783686293061558,
+      "total_ms": 92.73266792297363,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 40,
+      "fps": 10.602734670249529,
+      "total_ms": 94.3152904510498,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 41,
+      "fps": 11.160109624032142,
+      "total_ms": 89.60485458374023,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 42,
+      "fps": 11.00226114967132,
+      "total_ms": 90.89040756225586,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 43,
+      "fps": 11.642662240147896,
+      "total_ms": 85.8910083770752,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 44,
+      "fps": 11.045024832387965,
+      "total_ms": 90.53850173950195,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 45,
+      "fps": 11.967381690148882,
+      "total_ms": 83.56046676635742,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 46,
+      "fps": 10.993811514619347,
+      "total_ms": 90.96026420593262,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 47,
+      "fps": 13.21598406886686,
+      "total_ms": 75.66595077514648,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 48,
+      "fps": 12.742834573902476,
+      "total_ms": 78.4754753112793,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 49,
+      "fps": 12.606940829220495,
+      "total_ms": 79.32138442993164,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 50,
+      "fps": 11.858835238035997,
+      "total_ms": 84.32531356811523,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 51,
+      "fps": 11.48730982540226,
+      "total_ms": 87.05258369445801,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 52,
+      "fps": 14.378778269529416,
+      "total_ms": 69.54693794250488,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 53,
+      "fps": 13.363018281221127,
+      "total_ms": 74.83339309692383,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 54,
+      "fps": 12.176178919377126,
+      "total_ms": 82.12757110595703,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 55,
+      "fps": 11.582251775595639,
+      "total_ms": 86.33899688720703,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 56,
+      "fps": 10.038446810140154,
+      "total_ms": 99.61700439453125,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 57,
+      "fps": 10.019933300843773,
+      "total_ms": 99.80106353759766,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 58,
+      "fps": 12.500570740532115,
+      "total_ms": 79.99634742736816,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 59,
+      "fps": 16.061145872423854,
+      "total_ms": 62.26205825805664,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 60,
+      "fps": 16.011299478162613,
+      "total_ms": 62.45589256286621,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 61,
+      "fps": 11.242281208203,
+      "total_ms": 88.94991874694824,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 62,
+      "fps": 11.420250552047682,
+      "total_ms": 87.56375312805176,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 63,
+      "fps": 11.918412812075541,
+      "total_ms": 83.90378952026367,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 64,
+      "fps": 13.705487352588463,
+      "total_ms": 72.96347618103027,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 65,
+      "fps": 13.16752371803324,
+      "total_ms": 75.94442367553711,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 66,
+      "fps": 12.583000081000566,
+      "total_ms": 79.47230339050293,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 67,
+      "fps": 13.964209734286408,
+      "total_ms": 71.61164283752441,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 68,
+      "fps": 12.265553079617964,
+      "total_ms": 81.52914047241211,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 69,
+      "fps": 13.823562951317824,
+      "total_ms": 72.34025001525879,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 70,
+      "fps": 11.881275175770075,
+      "total_ms": 84.16604995727539,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 71,
+      "fps": 10.296333209773197,
+      "total_ms": 97.1219539642334,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 72,
+      "fps": 9.987555750286342,
+      "total_ms": 100.12459754943848,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 73,
+      "fps": 12.088446196767425,
+      "total_ms": 82.72361755371094,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 74,
+      "fps": 11.247557038197089,
+      "total_ms": 88.90819549560547,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 75,
+      "fps": 9.960043978694555,
+      "total_ms": 100.40116310119629,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 76,
+      "fps": 11.305279727442292,
+      "total_ms": 88.4542465209961,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 77,
+      "fps": 11.568323735133824,
+      "total_ms": 86.44294738769531,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 78,
+      "fps": 10.446169019416411,
+      "total_ms": 95.72887420654297,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 79,
+      "fps": 9.90039891419804,
+      "total_ms": 101.00603103637695,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 80,
+      "fps": 10.073719680757804,
+      "total_ms": 99.26819801330566,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 81,
+      "fps": 9.51389213380181,
+      "total_ms": 105.10945320129395,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 82,
+      "fps": 9.962362386138262,
+      "total_ms": 100.37779808044434,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 83,
+      "fps": 10.868240555758533,
+      "total_ms": 92.0112133026123,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 84,
+      "fps": 11.475053007400517,
+      "total_ms": 87.14556694030762,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 85,
+      "fps": 10.849208484221418,
+      "total_ms": 92.17262268066406,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 86,
+      "fps": 9.846292531539188,
+      "total_ms": 101.56106948852539,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 87,
+      "fps": 14.088177402777125,
+      "total_ms": 70.98150253295898,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 88,
+      "fps": 13.236128160866945,
+      "total_ms": 75.55079460144043,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 89,
+      "fps": 12.432393017734292,
+      "total_ms": 80.43503761291504,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 90,
+      "fps": 15.84412385776831,
+      "total_ms": 63.11488151550293,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 91,
+      "fps": 16.78137778168986,
+      "total_ms": 59.58986282348633,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 92,
+      "fps": 16.29450750953746,
+      "total_ms": 61.3703727722168,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 93,
+      "fps": 15.25123811878668,
+      "total_ms": 65.56844711303711,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 94,
+      "fps": 13.52887822311677,
+      "total_ms": 73.91595840454102,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 95,
+      "fps": 14.182211642501622,
+      "total_ms": 70.5108642578125,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 96,
+      "fps": 12.526929153612505,
+      "total_ms": 79.82802391052246,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 97,
+      "fps": 14.992990194851851,
+      "total_ms": 66.69783592224121,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 98,
+      "fps": 16.941617455790997,
+      "total_ms": 59.026241302490234,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 99,
+      "fps": 15.149493789302213,
+      "total_ms": 66.0088062286377,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 100,
+      "fps": 14.869569224987858,
+      "total_ms": 67.25144386291504,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 101,
+      "fps": 17.565926081038636,
+      "total_ms": 56.928396224975586,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 102,
+      "fps": 14.183938209314594,
+      "total_ms": 70.50228118896484,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 103,
+      "fps": 18.351238421925384,
+      "total_ms": 54.49223518371582,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 104,
+      "fps": 16.30984119083542,
+      "total_ms": 61.31267547607422,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 105,
+      "fps": 14.247827652505928,
+      "total_ms": 70.18613815307617,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 106,
+      "fps": 13.484860370758557,
+      "total_ms": 74.1572380065918,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 107,
+      "fps": 14.099685687872931,
+      "total_ms": 70.9235668182373,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 108,
+      "fps": 12.446670742057439,
+      "total_ms": 80.34276962280273,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 109,
+      "fps": 12.122195825457656,
+      "total_ms": 82.49330520629883,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 110,
+      "fps": 12.40265185789732,
+      "total_ms": 80.6279182434082,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 111,
+      "fps": 12.357595952989149,
+      "total_ms": 80.92188835144043,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 112,
+      "fps": 13.99617585717861,
+      "total_ms": 71.44808769226074,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 113,
+      "fps": 13.42224526303326,
+      "total_ms": 74.50318336486816,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 114,
+      "fps": 14.437031019812476,
+      "total_ms": 69.26631927490234,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 115,
+      "fps": 13.742624605182108,
+      "total_ms": 72.76630401611328,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 116,
+      "fps": 13.340322129207909,
+      "total_ms": 74.96070861816406,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 117,
+      "fps": 13.335571664758998,
+      "total_ms": 74.98741149902344,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 118,
+      "fps": 13.890539618617405,
+      "total_ms": 71.9914436340332,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 119,
+      "fps": 12.37232269540157,
+      "total_ms": 80.8255672454834,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 120,
+      "fps": 12.554601373901852,
+      "total_ms": 79.65207099914551,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 121,
+      "fps": 12.484199435066925,
+      "total_ms": 80.10125160217285,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 122,
+      "fps": 12.734091129894102,
+      "total_ms": 78.52935791015625,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 123,
+      "fps": 11.125563333395226,
+      "total_ms": 89.88308906555176,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 124,
+      "fps": 12.472394115740425,
+      "total_ms": 80.17706871032715,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 125,
+      "fps": 10.95896824899145,
+      "total_ms": 91.24946594238281,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 126,
+      "fps": 11.752997581759235,
+      "total_ms": 85.08467674255371,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 127,
+      "fps": 11.302598816465999,
+      "total_ms": 88.47522735595703,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 128,
+      "fps": 10.983706326302944,
+      "total_ms": 91.04394912719727,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 129,
+      "fps": 12.701082875069648,
+      "total_ms": 78.73344421386719,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 130,
+      "fps": 9.945354310171078,
+      "total_ms": 100.54945945739746,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 131,
+      "fps": 10.355027774348846,
+      "total_ms": 96.57144546508789,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 132,
+      "fps": 10.565396677456327,
+      "total_ms": 94.64859962463379,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 133,
+      "fps": 9.677495569994093,
+      "total_ms": 103.33251953125,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 134,
+      "fps": 10.438629587412832,
+      "total_ms": 95.79801559448242,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 135,
+      "fps": 10.698554243911397,
+      "total_ms": 93.47057342529297,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 136,
+      "fps": 10.324059419344517,
+      "total_ms": 96.86112403869629,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 137,
+      "fps": 11.907179559971611,
+      "total_ms": 83.98294448852539,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 138,
+      "fps": 10.393182724878148,
+      "total_ms": 96.21691703796387,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 139,
+      "fps": 10.6887936350987,
+      "total_ms": 93.55592727661133,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 140,
+      "fps": 11.099595373122083,
+      "total_ms": 90.09337425231934,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 141,
+      "fps": 10.607319885892325,
+      "total_ms": 94.27452087402344,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 142,
+      "fps": 11.046508381727438,
+      "total_ms": 90.52634239196777,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 143,
+      "fps": 10.90800902953323,
+      "total_ms": 91.6757583618164,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 144,
+      "fps": 13.069054696604287,
+      "total_ms": 76.51662826538086,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 145,
+      "fps": 12.302861953355762,
+      "total_ms": 81.28190040588379,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 146,
+      "fps": 10.76854191057161,
+      "total_ms": 92.86308288574219,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 147,
+      "fps": 10.589002777076496,
+      "total_ms": 94.4375991821289,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 148,
+      "fps": 10.189698315444753,
+      "total_ms": 98.13833236694336,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 149,
+      "fps": 12.385292276437168,
+      "total_ms": 80.74092864990234,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 150,
+      "fps": 10.24700478842959,
+      "total_ms": 97.58949279785156,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 151,
+      "fps": 11.409160396707524,
+      "total_ms": 87.64886856079102,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 152,
+      "fps": 10.800597414636659,
+      "total_ms": 92.58747100830078,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 153,
+      "fps": 9.793323090860694,
+      "total_ms": 102.11038589477539,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 154,
+      "fps": 9.95085195325289,
+      "total_ms": 100.4939079284668,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 155,
+      "fps": 11.26377725440488,
+      "total_ms": 88.78016471862793,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 156,
+      "fps": 10.72739456252078,
+      "total_ms": 93.21928024291992,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 157,
+      "fps": 15.272396252453275,
+      "total_ms": 65.47760963439941,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 158,
+      "fps": 10.322255473302882,
+      "total_ms": 96.8780517578125,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 159,
+      "fps": 11.24433065694409,
+      "total_ms": 88.93370628356934,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 160,
+      "fps": 12.401588376349396,
+      "total_ms": 80.63483238220215,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 161,
+      "fps": 10.815804267214036,
+      "total_ms": 92.45729446411133,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 162,
+      "fps": 9.914791920290284,
+      "total_ms": 100.85940361022949,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 163,
+      "fps": 14.357122074614654,
+      "total_ms": 69.65184211730957,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 164,
+      "fps": 10.3960936919073,
+      "total_ms": 96.18997573852539,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 165,
+      "fps": 11.402677831092745,
+      "total_ms": 87.69869804382324,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 166,
+      "fps": 9.578835824167793,
+      "total_ms": 104.39682006835938,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 167,
+      "fps": 12.122335967259927,
+      "total_ms": 82.49235153198242,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 168,
+      "fps": 10.459297976120416,
+      "total_ms": 95.60871124267578,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 169,
+      "fps": 10.424904619284924,
+      "total_ms": 95.92413902282715,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 170,
+      "fps": 11.765393624033997,
+      "total_ms": 84.99503135681152,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 171,
+      "fps": 10.716321660526221,
+      "total_ms": 93.31560134887695,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 172,
+      "fps": 10.359554724567952,
+      "total_ms": 96.52924537658691,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 173,
+      "fps": 11.458344260861963,
+      "total_ms": 87.27264404296875,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 174,
+      "fps": 13.412459188339618,
+      "total_ms": 74.55754280090332,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 175,
+      "fps": 13.485207214738129,
+      "total_ms": 74.15533065795898,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 176,
+      "fps": 14.455141990625862,
+      "total_ms": 69.17953491210938,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 177,
+      "fps": 11.851764779017623,
+      "total_ms": 84.37561988830566,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 178,
+      "fps": 11.111680990176652,
+      "total_ms": 89.9953842163086,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 179,
+      "fps": 10.139814866299043,
+      "total_ms": 98.62112998962402,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 180,
+      "fps": 9.983419299402323,
+      "total_ms": 100.16608238220215,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 181,
+      "fps": 13.286063631640966,
+      "total_ms": 75.26683807373047,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 182,
+      "fps": 12.641098978598489,
+      "total_ms": 79.10704612731934,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 183,
+      "fps": 10.966475451412675,
+      "total_ms": 91.1870002746582,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 184,
+      "fps": 11.37459965341715,
+      "total_ms": 87.91518211364746,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 185,
+      "fps": 12.4824532165135,
+      "total_ms": 80.11245727539062,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 186,
+      "fps": 10.978416437639053,
+      "total_ms": 91.08781814575195,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 187,
+      "fps": 10.720704233272158,
+      "total_ms": 93.2774543762207,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 188,
+      "fps": 12.614372244377478,
+      "total_ms": 79.27465438842773,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 189,
+      "fps": 9.561846574717885,
+      "total_ms": 104.58230972290039,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 190,
+      "fps": 10.564385438626982,
+      "total_ms": 94.65765953063965,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 191,
+      "fps": 9.456854256854257,
+      "total_ms": 105.743408203125,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 192,
+      "fps": 9.770987813940703,
+      "total_ms": 102.34379768371582,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 193,
+      "fps": 11.237763005950706,
+      "total_ms": 88.98568153381348,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 194,
+      "fps": 10.823842727596476,
+      "total_ms": 92.38862991333008,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 195,
+      "fps": 9.722563102835194,
+      "total_ms": 102.85353660583496,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 196,
+      "fps": 11.487844692529334,
+      "total_ms": 87.04853057861328,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 197,
+      "fps": 12.360363652437856,
+      "total_ms": 80.90376853942871,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 198,
+      "fps": 10.694926015549102,
+      "total_ms": 93.50228309631348,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 199,
+      "fps": 10.505194610028553,
+      "total_ms": 95.19100189208984,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 200,
+      "fps": 11.028181086751891,
+      "total_ms": 90.67678451538086,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 201,
+      "fps": 10.22427418765083,
+      "total_ms": 97.80645370483398,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 202,
+      "fps": 10.793621056586488,
+      "total_ms": 92.64731407165527,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 203,
+      "fps": 12.360035833844123,
+      "total_ms": 80.90591430664062,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 204,
+      "fps": 11.545396489837264,
+      "total_ms": 86.61460876464844,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 205,
+      "fps": 14.674685727680805,
+      "total_ms": 68.14455986022949,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 206,
+      "fps": 13.608547391235225,
+      "total_ms": 73.48322868347168,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 207,
+      "fps": 10.983907672727367,
+      "total_ms": 91.04228019714355,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 208,
+      "fps": 9.571381953524885,
+      "total_ms": 104.47812080383301,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 209,
+      "fps": 10.126594992117088,
+      "total_ms": 98.74987602233887,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 210,
+      "fps": 8.136601188005105,
+      "total_ms": 122.90143966674805,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 211,
+      "fps": 14.506085266357935,
+      "total_ms": 68.93658638000488,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 212,
+      "fps": 11.784036793648207,
+      "total_ms": 84.86056327819824,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 213,
+      "fps": 15.182121578478712,
+      "total_ms": 65.86694717407227,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 214,
+      "fps": 11.455246116996726,
+      "total_ms": 87.2962474822998,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 215,
+      "fps": 13.024777579380483,
+      "total_ms": 76.77674293518066,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 216,
+      "fps": 12.421494676676588,
+      "total_ms": 80.5056095123291,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 217,
+      "fps": 13.653288889033565,
+      "total_ms": 73.2424259185791,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 218,
+      "fps": 11.43388644907328,
+      "total_ms": 87.45932579040527,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 219,
+      "fps": 11.620212273756126,
+      "total_ms": 86.05694770812988,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 220,
+      "fps": 12.150500005793809,
+      "total_ms": 82.30113983154297,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 221,
+      "fps": 11.235866443787236,
+      "total_ms": 89.00070190429688,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 222,
+      "fps": 11.420032890796023,
+      "total_ms": 87.56542205810547,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 223,
+      "fps": 10.74487260281693,
+      "total_ms": 93.06764602661133,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 224,
+      "fps": 13.799594662174611,
+      "total_ms": 72.46589660644531,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 225,
+      "fps": 12.995117114884124,
+      "total_ms": 76.95198059082031,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 226,
+      "fps": 11.488505479515842,
+      "total_ms": 87.04352378845215,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 227,
+      "fps": 16.975489719928767,
+      "total_ms": 58.90846252441406,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 228,
+      "fps": 12.58326433140128,
+      "total_ms": 79.47063446044922,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 229,
+      "fps": 11.328180114191879,
+      "total_ms": 88.27543258666992,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 230,
+      "fps": 11.93832596611173,
+      "total_ms": 83.76383781433105,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 231,
+      "fps": 10.611345271285666,
+      "total_ms": 94.2387580871582,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 232,
+      "fps": 9.517367823916496,
+      "total_ms": 105.0710678100586,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 233,
+      "fps": 10.821971602769027,
+      "total_ms": 92.40460395812988,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 234,
+      "fps": 12.290640567309383,
+      "total_ms": 81.36272430419922,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 235,
+      "fps": 9.94665148928097,
+      "total_ms": 100.53634643554688,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 236,
+      "fps": 11.012371610409797,
+      "total_ms": 90.80696105957031,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 237,
+      "fps": 10.207776720460071,
+      "total_ms": 97.96452522277832,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 238,
+      "fps": 11.709195267527624,
+      "total_ms": 85.4029655456543,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 239,
+      "fps": 11.704555348432251,
+      "total_ms": 85.43682098388672,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 240,
+      "fps": 10.326194479800877,
+      "total_ms": 96.84109687805176,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 241,
+      "fps": 10.065210348609234,
+      "total_ms": 99.35212135314941,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 242,
+      "fps": 11.446367801850826,
+      "total_ms": 87.36395835876465,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 243,
+      "fps": 10.000653309585292,
+      "total_ms": 99.99346733093262,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 244,
+      "fps": 10.757080461951574,
+      "total_ms": 92.96202659606934,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 245,
+      "fps": 9.753424147858077,
+      "total_ms": 102.52809524536133,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 246,
+      "fps": 10.53141367829541,
+      "total_ms": 94.95401382446289,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 247,
+      "fps": 9.817001327094973,
+      "total_ms": 101.86409950256348,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 248,
+      "fps": 11.48737274836151,
+      "total_ms": 87.0521068572998,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 249,
+      "fps": 10.697026268808978,
+      "total_ms": 93.48392486572266,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 250,
+      "fps": 11.76585568375313,
+      "total_ms": 84.9916934967041,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 251,
+      "fps": 10.910364094653685,
+      "total_ms": 91.65596961975098,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 252,
+      "fps": 9.751995480089375,
+      "total_ms": 102.54311561584473,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 253,
+      "fps": 9.491673323632645,
+      "total_ms": 105.35550117492676,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 254,
+      "fps": 11.108708606903638,
+      "total_ms": 90.01946449279785,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 255,
+      "fps": 11.194691848004505,
+      "total_ms": 89.32805061340332,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 256,
+      "fps": 9.775929741471737,
+      "total_ms": 102.29206085205078,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 257,
+      "fps": 11.363444006448029,
+      "total_ms": 88.00148963928223,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 258,
+      "fps": 13.234248788368337,
+      "total_ms": 75.5615234375,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 259,
+      "fps": 12.009460272011452,
+      "total_ms": 83.2676887512207,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 260,
+      "fps": 10.437304812408394,
+      "total_ms": 95.8101749420166,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 261,
+      "fps": 9.776203173656045,
+      "total_ms": 102.28919982910156,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 262,
+      "fps": 10.179040074941815,
+      "total_ms": 98.24109077453613,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 263,
+      "fps": 11.334884537949113,
+      "total_ms": 88.22321891784668,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 264,
+      "fps": 16.402709340341328,
+      "total_ms": 60.965538024902344,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 265,
+      "fps": 15.220300972881958,
+      "total_ms": 65.70172309875488,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 266,
+      "fps": 11.438251825106152,
+      "total_ms": 87.42594718933105,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 267,
+      "fps": 11.735667239324227,
+      "total_ms": 85.21032333374023,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 268,
+      "fps": 11.744408230010192,
+      "total_ms": 85.14690399169922,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 269,
+      "fps": 10.345756056169881,
+      "total_ms": 96.65799140930176,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 270,
+      "fps": 9.333929735780364,
+      "total_ms": 107.13601112365723,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 271,
+      "fps": 12.112289010497134,
+      "total_ms": 82.56077766418457,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 272,
+      "fps": 12.689670195353509,
+      "total_ms": 78.80425453186035,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 273,
+      "fps": 12.020715172115338,
+      "total_ms": 83.18972587585449,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 274,
+      "fps": 9.540184603067013,
+      "total_ms": 104.81977462768555,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 275,
+      "fps": 10.297344341904012,
+      "total_ms": 97.11241722106934,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 276,
+      "fps": 9.190316028423496,
+      "total_ms": 108.8101863861084,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 277,
+      "fps": 11.503629935793882,
+      "total_ms": 86.9290828704834,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 278,
+      "fps": 10.619593426153095,
+      "total_ms": 94.16556358337402,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 279,
+      "fps": 12.584208173441864,
+      "total_ms": 79.46467399597168,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 280,
+      "fps": 10.360296805683177,
+      "total_ms": 96.52233123779297,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 281,
+      "fps": 9.06803996220843,
+      "total_ms": 110.27741432189941,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 282,
+      "fps": 8.97321281489009,
+      "total_ms": 111.44280433654785,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 283,
+      "fps": 10.079432862721537,
+      "total_ms": 99.2119312286377,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 284,
+      "fps": 12.162585217469472,
+      "total_ms": 82.21936225891113,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 285,
+      "fps": 17.373617543016678,
+      "total_ms": 57.558536529541016,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 286,
+      "fps": 13.958632991769862,
+      "total_ms": 71.6402530670166,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 287,
+      "fps": 13.299249474441861,
+      "total_ms": 75.19221305847168,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 288,
+      "fps": 12.493756553236107,
+      "total_ms": 80.03997802734375,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 289,
+      "fps": 13.245993172207537,
+      "total_ms": 75.49452781677246,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 290,
+      "fps": 13.47359764598552,
+      "total_ms": 74.2192268371582,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 291,
+      "fps": 11.64324399350424,
+      "total_ms": 85.88671684265137,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 292,
+      "fps": 12.983170152635603,
+      "total_ms": 77.02279090881348,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 293,
+      "fps": 11.32952648496799,
+      "total_ms": 88.26494216918945,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 294,
+      "fps": 11.514082728480602,
+      "total_ms": 86.85016632080078,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 295,
+      "fps": 11.010030108701073,
+      "total_ms": 90.82627296447754,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 296,
+      "fps": 12.426278756277126,
+      "total_ms": 80.4746150970459,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 297,
+      "fps": 9.502640563864036,
+      "total_ms": 105.23390769958496,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 298,
+      "fps": 10.556302491398773,
+      "total_ms": 94.73013877868652,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 299,
+      "fps": 12.076194863526432,
+      "total_ms": 82.80754089355469,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 300,
+      "fps": 11.53961537403362,
+      "total_ms": 86.65800094604492,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 301,
+      "fps": 11.098244360653569,
+      "total_ms": 90.10434150695801,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 302,
+      "fps": 14.553751986509088,
+      "total_ms": 68.7108039855957,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 303,
+      "fps": 12.196112298454516,
+      "total_ms": 81.99334144592285,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 304,
+      "fps": 13.324726154471751,
+      "total_ms": 75.04844665527344,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 305,
+      "fps": 12.966994373338279,
+      "total_ms": 77.1188735961914,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 306,
+      "fps": 12.074491390999198,
+      "total_ms": 82.81922340393066,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 307,
+      "fps": 10.7162669010414,
+      "total_ms": 93.31607818603516,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 308,
+      "fps": 11.851563846590732,
+      "total_ms": 84.37705039978027,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 309,
+      "fps": 11.555989034453306,
+      "total_ms": 86.53521537780762,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 310,
+      "fps": 11.953057583685288,
+      "total_ms": 83.66060256958008,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 311,
+      "fps": 13.000393640993215,
+      "total_ms": 76.92074775695801,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 312,
+      "fps": 12.075151864114005,
+      "total_ms": 82.81469345092773,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 313,
+      "fps": 13.840303580267282,
+      "total_ms": 72.25275039672852,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 314,
+      "fps": 11.088444690013985,
+      "total_ms": 90.18397331237793,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 315,
+      "fps": 11.91330108586669,
+      "total_ms": 83.93979072570801,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 316,
+      "fps": 10.531810340714776,
+      "total_ms": 94.95043754577637,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 317,
+      "fps": 11.139598748545902,
+      "total_ms": 89.76984024047852,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 318,
+      "fps": 12.361092200462696,
+      "total_ms": 80.89900016784668,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 319,
+      "fps": 14.135800347134456,
+      "total_ms": 70.74236869812012,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 320,
+      "fps": 12.947180935623775,
+      "total_ms": 77.23689079284668,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 321,
+      "fps": 12.015239972270125,
+      "total_ms": 83.22763442993164,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 322,
+      "fps": 10.712763457667984,
+      "total_ms": 93.34659576416016,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 323,
+      "fps": 12.100687502344085,
+      "total_ms": 82.63993263244629,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 324,
+      "fps": 11.661728724587393,
+      "total_ms": 85.75057983398438,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 325,
+      "fps": 11.784665872462856,
+      "total_ms": 84.85603332519531,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 326,
+      "fps": 9.337919580380659,
+      "total_ms": 107.09023475646973,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 327,
+      "fps": 10.886576531446533,
+      "total_ms": 91.85624122619629,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 328,
+      "fps": 11.220326740910561,
+      "total_ms": 89.12396430969238,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 329,
+      "fps": 12.155112804833871,
+      "total_ms": 82.26990699768066,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 330,
+      "fps": 11.402646831740231,
+      "total_ms": 87.69893646240234,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 331,
+      "fps": 10.658805710713432,
+      "total_ms": 93.81914138793945,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 332,
+      "fps": 9.330337638532347,
+      "total_ms": 107.1772575378418,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 333,
+      "fps": 11.314276157309372,
+      "total_ms": 88.38391304016113,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 334,
+      "fps": 10.671904697689449,
+      "total_ms": 93.7039852142334,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 335,
+      "fps": 11.415246441499061,
+      "total_ms": 87.60213851928711,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 336,
+      "fps": 11.202046882803675,
+      "total_ms": 89.26939964294434,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 337,
+      "fps": 12.747481992523477,
+      "total_ms": 78.44686508178711,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 338,
+      "fps": 9.979215044348852,
+      "total_ms": 100.20828247070312,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 339,
+      "fps": 14.302095374490648,
+      "total_ms": 69.91982460021973,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 340,
+      "fps": 11.058157898205883,
+      "total_ms": 90.43097496032715,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 341,
+      "fps": 11.294259571420108,
+      "total_ms": 88.54055404663086,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 342,
+      "fps": 11.044239585225911,
+      "total_ms": 90.5449390411377,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 343,
+      "fps": 9.994314566956339,
+      "total_ms": 100.05688667297363,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 344,
+      "fps": 9.701020221714925,
+      "total_ms": 103.08194160461426,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 345,
+      "fps": 12.229824730213991,
+      "total_ms": 81.76732063293457,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 346,
+      "fps": 10.980687015506414,
+      "total_ms": 91.06898307800293,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 347,
+      "fps": 10.963780844834798,
+      "total_ms": 91.20941162109375,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 348,
+      "fps": 10.4294669521259,
+      "total_ms": 95.88217735290527,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 349,
+      "fps": 10.332324974134108,
+      "total_ms": 96.78363800048828,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 350,
+      "fps": 10.400398727444498,
+      "total_ms": 96.15015983581543,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 351,
+      "fps": 14.022285593931471,
+      "total_ms": 71.31505012512207,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 352,
+      "fps": 9.795427263597935,
+      "total_ms": 102.08845138549805,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 353,
+      "fps": 11.217205957471846,
+      "total_ms": 89.14875984191895,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 354,
+      "fps": 9.452186983790021,
+      "total_ms": 105.79562187194824,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 355,
+      "fps": 9.472380999699634,
+      "total_ms": 105.57007789611816,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 356,
+      "fps": 10.633674411057815,
+      "total_ms": 94.0408706665039,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 357,
+      "fps": 10.369415161883666,
+      "total_ms": 96.43745422363281,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 358,
+      "fps": 11.852870029163746,
+      "total_ms": 84.36775207519531,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 359,
+      "fps": 11.444993519339654,
+      "total_ms": 87.37444877624512,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 360,
+      "fps": 10.111385935729611,
+      "total_ms": 98.89841079711914,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 361,
+      "fps": 9.453230859383805,
+      "total_ms": 105.78393936157227,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 362,
+      "fps": 10.681688878249288,
+      "total_ms": 93.61815452575684,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 363,
+      "fps": 10.553964998804776,
+      "total_ms": 94.75111961364746,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 364,
+      "fps": 10.541736621459952,
+      "total_ms": 94.86103057861328,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 365,
+      "fps": 9.190094523591458,
+      "total_ms": 108.81280899047852,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 366,
+      "fps": 9.098174640188285,
+      "total_ms": 109.91215705871582,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 367,
+      "fps": 10.430608159357398,
+      "total_ms": 95.8716869354248,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 368,
+      "fps": 14.734537585453422,
+      "total_ms": 67.86775588989258,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 369,
+      "fps": 10.664876602539653,
+      "total_ms": 93.7657356262207,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 370,
+      "fps": 11.516011147261919,
+      "total_ms": 86.83562278747559,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 371,
+      "fps": 10.845617591692353,
+      "total_ms": 92.20314025878906,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 372,
+      "fps": 10.449552301276078,
+      "total_ms": 95.69787979125977,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 373,
+      "fps": 9.860621263450403,
+      "total_ms": 101.41348838806152,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 374,
+      "fps": 12.726093275441999,
+      "total_ms": 78.57871055603027,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 375,
+      "fps": 9.816564779014577,
+      "total_ms": 101.8686294555664,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 376,
+      "fps": 10.512356261341193,
+      "total_ms": 95.12615203857422,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 377,
+      "fps": 10.796593939518745,
+      "total_ms": 92.6218032836914,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 378,
+      "fps": 9.689814419080667,
+      "total_ms": 103.20115089416504,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 379,
+      "fps": 9.443461541059419,
+      "total_ms": 105.89337348937988,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 380,
+      "fps": 10.404888007958146,
+      "total_ms": 96.10867500305176,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 381,
+      "fps": 11.089851960942436,
+      "total_ms": 90.17252922058105,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 382,
+      "fps": 9.243543321836674,
+      "total_ms": 108.18362236022949,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 383,
+      "fps": 9.237619095862534,
+      "total_ms": 108.25300216674805,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 384,
+      "fps": 10.15973413171332,
+      "total_ms": 98.42777252197266,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 385,
+      "fps": 14.079570325612622,
+      "total_ms": 71.02489471435547,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 386,
+      "fps": 11.48252969664118,
+      "total_ms": 87.08882331848145,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 387,
+      "fps": 12.707509126990137,
+      "total_ms": 78.69362831115723,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 388,
+      "fps": 11.147977748186658,
+      "total_ms": 89.70236778259277,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 389,
+      "fps": 11.07532736389874,
+      "total_ms": 90.29078483581543,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 390,
+      "fps": 11.251449250091877,
+      "total_ms": 88.87743949890137,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 391,
+      "fps": 14.44807131883349,
+      "total_ms": 69.2133903503418,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 392,
+      "fps": 10.658101501275627,
+      "total_ms": 93.8253402709961,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 393,
+      "fps": 9.959712865715094,
+      "total_ms": 100.40450096130371,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 394,
+      "fps": 9.127695782935884,
+      "total_ms": 109.55667495727539,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 395,
+      "fps": 8.674143454226218,
+      "total_ms": 115.28515815734863,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 396,
+      "fps": 10.81689210970845,
+      "total_ms": 92.44799613952637,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 397,
+      "fps": 10.839451295781345,
+      "total_ms": 92.2555923461914,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 398,
+      "fps": 10.222480026907009,
+      "total_ms": 97.8236198425293,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 399,
+      "fps": 10.750132636872282,
+      "total_ms": 93.02210807800293,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 400,
+      "fps": 13.640412239707828,
+      "total_ms": 73.31156730651855,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 401,
+      "fps": 13.678267675450039,
+      "total_ms": 73.10867309570312,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 402,
+      "fps": 15.412472394418987,
+      "total_ms": 64.88251686096191,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 403,
+      "fps": 16.57002441471836,
+      "total_ms": 60.34994125366211,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 404,
+      "fps": 11.667957448702541,
+      "total_ms": 85.70480346679688,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 405,
+      "fps": 10.117630031310759,
+      "total_ms": 98.83737564086914,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 406,
+      "fps": 11.707168934987216,
+      "total_ms": 85.4177474975586,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 407,
+      "fps": 11.078369690678626,
+      "total_ms": 90.26598930358887,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 408,
+      "fps": 9.840378759085384,
+      "total_ms": 101.62210464477539,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 409,
+      "fps": 13.038381791108804,
+      "total_ms": 76.69663429260254,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 410,
+      "fps": 11.453087795180986,
+      "total_ms": 87.31269836425781,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 411,
+      "fps": 9.673544979646437,
+      "total_ms": 103.37471961975098,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 412,
+      "fps": 9.569198266991853,
+      "total_ms": 104.50196266174316,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 413,
+      "fps": 10.331994097838912,
+      "total_ms": 96.7867374420166,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 414,
+      "fps": 11.14981511363002,
+      "total_ms": 89.68758583068848,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 415,
+      "fps": 11.451024074347087,
+      "total_ms": 87.32843399047852,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 416,
+      "fps": 10.349789638622596,
+      "total_ms": 96.62032127380371,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 417,
+      "fps": 10.697735631538944,
+      "total_ms": 93.47772598266602,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 418,
+      "fps": 10.734697638230568,
+      "total_ms": 93.1558609008789,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 419,
+      "fps": 11.595443989826386,
+      "total_ms": 86.24076843261719,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 420,
+      "fps": 8.741976160353822,
+      "total_ms": 114.39061164855957,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 421,
+      "fps": 9.973946914102815,
+      "total_ms": 100.26121139526367,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 422,
+      "fps": 9.659932380768133,
+      "total_ms": 103.52039337158203,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 423,
+      "fps": 9.586498507503622,
+      "total_ms": 104.31337356567383,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 424,
+      "fps": 8.671184562523516,
+      "total_ms": 115.32449722290039,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 425,
+      "fps": 11.652754201383004,
+      "total_ms": 85.81662178039551,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 426,
+      "fps": 10.856453608460898,
+      "total_ms": 92.11111068725586,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 427,
+      "fps": 10.896079098657703,
+      "total_ms": 91.77613258361816,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 428,
+      "fps": 10.869930519381231,
+      "total_ms": 91.99690818786621,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 429,
+      "fps": 10.411577510239542,
+      "total_ms": 96.04692459106445,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 430,
+      "fps": 9.948184955468852,
+      "total_ms": 100.52084922790527,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 431,
+      "fps": 12.522029890671554,
+      "total_ms": 79.85925674438477,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 432,
+      "fps": 14.66519349379729,
+      "total_ms": 68.18866729736328,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 433,
+      "fps": 10.315451889307532,
+      "total_ms": 96.94194793701172,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 434,
+      "fps": 11.524997870475447,
+      "total_ms": 86.76791191101074,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 435,
+      "fps": 12.382257516938019,
+      "total_ms": 80.76071739196777,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 436,
+      "fps": 15.46064897581546,
+      "total_ms": 64.68033790588379,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 437,
+      "fps": 13.669663954007554,
+      "total_ms": 73.15468788146973,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 438,
+      "fps": 12.707432127416554,
+      "total_ms": 78.69410514831543,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 439,
+      "fps": 13.212112430266586,
+      "total_ms": 75.68812370300293,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 440,
+      "fps": 12.731849171609488,
+      "total_ms": 78.54318618774414,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 441,
+      "fps": 13.099913173297354,
+      "total_ms": 76.33638381958008,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 442,
+      "fps": 13.785715694330321,
+      "total_ms": 72.53885269165039,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 443,
+      "fps": 13.61345017851347,
+      "total_ms": 73.4567642211914,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 444,
+      "fps": 16.71463640131348,
+      "total_ms": 59.82780456542969,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 445,
+      "fps": 13.736773500494541,
+      "total_ms": 72.79729843139648,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 446,
+      "fps": 16.007571941073202,
+      "total_ms": 62.470436096191406,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 447,
+      "fps": 15.737118372523197,
+      "total_ms": 63.54403495788574,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 448,
+      "fps": 13.952550131065959,
+      "total_ms": 71.6714859008789,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 449,
+      "fps": 13.433809493306002,
+      "total_ms": 74.43904876708984,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 450,
+      "fps": 14.21788326858801,
+      "total_ms": 70.33395767211914,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 451,
+      "fps": 12.76109517188503,
+      "total_ms": 78.36318016052246,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 452,
+      "fps": 10.9277605967365,
+      "total_ms": 91.51005744934082,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 453,
+      "fps": 11.546508907015221,
+      "total_ms": 86.60626411437988,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 454,
+      "fps": 9.721323710059472,
+      "total_ms": 102.86664962768555,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 455,
+      "fps": 9.962149426160979,
+      "total_ms": 100.37994384765625,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 456,
+      "fps": 9.772034994117167,
+      "total_ms": 102.33283042907715,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 457,
+      "fps": 11.600382779354254,
+      "total_ms": 86.20405197143555,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 458,
+      "fps": 10.884740150205793,
+      "total_ms": 91.87173843383789,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 459,
+      "fps": 10.894890370643594,
+      "total_ms": 91.78614616394043,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 460,
+      "fps": 13.401060121476247,
+      "total_ms": 74.62096214294434,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 461,
+      "fps": 12.078072716591892,
+      "total_ms": 82.7946662902832,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 462,
+      "fps": 10.554841437206516,
+      "total_ms": 94.74325180053711,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 463,
+      "fps": 12.32984199309179,
+      "total_ms": 81.10404014587402,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 464,
+      "fps": 9.486113372776783,
+      "total_ms": 105.41725158691406,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 465,
+      "fps": 11.912861208468481,
+      "total_ms": 83.94289016723633,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 466,
+      "fps": 18.36972412373482,
+      "total_ms": 54.43739891052246,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 467,
+      "fps": 13.841125689696138,
+      "total_ms": 72.24845886230469,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 468,
+      "fps": 15.258117792571575,
+      "total_ms": 65.53888320922852,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 469,
+      "fps": 14.591268833513652,
+      "total_ms": 68.53413581848145,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 470,
+      "fps": 15.046398668379025,
+      "total_ms": 66.46108627319336,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 471,
+      "fps": 13.070235739549087,
+      "total_ms": 76.50971412658691,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 472,
+      "fps": 18.522805158099274,
+      "total_ms": 53.98750305175781,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 473,
+      "fps": 14.325591562380458,
+      "total_ms": 69.80514526367188,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 474,
+      "fps": 14.655969586000616,
+      "total_ms": 68.23158264160156,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 475,
+      "fps": 11.45809384356492,
+      "total_ms": 87.27455139160156,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 476,
+      "fps": 11.188689412329607,
+      "total_ms": 89.37597274780273,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 477,
+      "fps": 10.238925112842157,
+      "total_ms": 97.66650199890137,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 478,
+      "fps": 11.496157261733781,
+      "total_ms": 86.98558807373047,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 479,
+      "fps": 15.413888398894573,
+      "total_ms": 64.87655639648438,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 480,
+      "fps": 11.997299802061761,
+      "total_ms": 83.35208892822266,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 481,
+      "fps": 11.115420799754068,
+      "total_ms": 89.9651050567627,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 482,
+      "fps": 10.497937607624845,
+      "total_ms": 95.25680541992188,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 483,
+      "fps": 10.999058565610634,
+      "total_ms": 90.91687202453613,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 484,
+      "fps": 10.936051938570646,
+      "total_ms": 91.44067764282227,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 485,
+      "fps": 10.68587981422082,
+      "total_ms": 93.5814380645752,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 486,
+      "fps": 11.193078620741188,
+      "total_ms": 89.3409252166748,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 487,
+      "fps": 10.12727961966298,
+      "total_ms": 98.74320030212402,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 488,
+      "fps": 13.046168393484232,
+      "total_ms": 76.65085792541504,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 489,
+      "fps": 10.712243610535753,
+      "total_ms": 93.35112571716309,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 490,
+      "fps": 11.194512577567226,
+      "total_ms": 89.32948112487793,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 491,
+      "fps": 13.353020766676536,
+      "total_ms": 74.8894214630127,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 492,
+      "fps": 12.71548363235089,
+      "total_ms": 78.6442756652832,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 493,
+      "fps": 11.069247720465013,
+      "total_ms": 90.34037590026855,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 494,
+      "fps": 12.014276302598034,
+      "total_ms": 83.23431015014648,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 495,
+      "fps": 11.018099476192228,
+      "total_ms": 90.7597541809082,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 496,
+      "fps": 10.107609075464195,
+      "total_ms": 98.93536567687988,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 497,
+      "fps": 11.635976252566165,
+      "total_ms": 85.94036102294922,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 498,
+      "fps": 11.01193792384618,
+      "total_ms": 90.81053733825684,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 499,
+      "fps": 9.530667939148119,
+      "total_ms": 104.92444038391113,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 500,
+      "fps": 10.284467264466235,
+      "total_ms": 97.23401069641113,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 501,
+      "fps": 10.334667166032604,
+      "total_ms": 96.76170349121094,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 502,
+      "fps": 10.428818650170072,
+      "total_ms": 95.88813781738281,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 503,
+      "fps": 10.113994834857717,
+      "total_ms": 98.87290000915527,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 504,
+      "fps": 9.741191990227,
+      "total_ms": 102.65684127807617,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 505,
+      "fps": 10.378780717751773,
+      "total_ms": 96.35043144226074,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 506,
+      "fps": 11.30058896750171,
+      "total_ms": 88.49096298217773,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 507,
+      "fps": 9.769508485393384,
+      "total_ms": 102.35929489135742,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 508,
+      "fps": 11.007949609605669,
+      "total_ms": 90.84343910217285,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 509,
+      "fps": 9.94518923891858,
+      "total_ms": 100.55112838745117,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 510,
+      "fps": 11.520724264281752,
+      "total_ms": 86.80009841918945,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 511,
+      "fps": 12.183925007770538,
+      "total_ms": 82.07535743713379,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 512,
+      "fps": 14.70380329041237,
+      "total_ms": 68.00961494445801,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 513,
+      "fps": 13.756777854308112,
+      "total_ms": 72.69144058227539,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 514,
+      "fps": 12.761561093751427,
+      "total_ms": 78.36031913757324,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 515,
+      "fps": 14.86187676945918,
+      "total_ms": 67.28625297546387,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 516,
+      "fps": 13.672961510501729,
+      "total_ms": 73.13704490661621,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 517,
+      "fps": 14.363562891681791,
+      "total_ms": 69.62060928344727,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 518,
+      "fps": 14.48529472709942,
+      "total_ms": 69.03553009033203,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 519,
+      "fps": 12.311095326290825,
+      "total_ms": 81.22754096984863,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 520,
+      "fps": 11.822733858374253,
+      "total_ms": 84.58280563354492,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 521,
+      "fps": 14.549662648512705,
+      "total_ms": 68.73011589050293,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 522,
+      "fps": 13.999399210963732,
+      "total_ms": 71.43163681030273,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 523,
+      "fps": 13.586990605766117,
+      "total_ms": 73.59981536865234,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 524,
+      "fps": 16.321900270066234,
+      "total_ms": 61.26737594604492,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 525,
+      "fps": 13.573404010886414,
+      "total_ms": 73.67348670959473,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 526,
+      "fps": 12.866555209595534,
+      "total_ms": 77.72088050842285,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 527,
+      "fps": 13.069217586389556,
+      "total_ms": 76.51567459106445,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 528,
+      "fps": 13.90735073228798,
+      "total_ms": 71.90442085266113,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 529,
+      "fps": 13.266774421083596,
+      "total_ms": 75.37627220153809,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 530,
+      "fps": 13.167854429465727,
+      "total_ms": 75.9425163269043,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 531,
+      "fps": 14.44822062769765,
+      "total_ms": 69.21267509460449,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 532,
+      "fps": 13.802546408274345,
+      "total_ms": 72.45039939880371,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 533,
+      "fps": 12.246715175015476,
+      "total_ms": 81.65454864501953,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 534,
+      "fps": 11.65929743508488,
+      "total_ms": 85.76846122741699,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 535,
+      "fps": 15.670209705560392,
+      "total_ms": 63.81535530090332,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 536,
+      "fps": 12.481598862036847,
+      "total_ms": 80.11794090270996,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 537,
+      "fps": 11.721007698864033,
+      "total_ms": 85.31689643859863,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 538,
+      "fps": 13.651733520811364,
+      "total_ms": 73.25077056884766,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 539,
+      "fps": 10.920135697715894,
+      "total_ms": 91.57395362854004,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 540,
+      "fps": 9.930990067361991,
+      "total_ms": 100.69489479064941,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 541,
+      "fps": 9.889474155777402,
+      "total_ms": 101.11761093139648,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 542,
+      "fps": 10.62255191225,
+      "total_ms": 94.13933753967285,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 543,
+      "fps": 13.010313819277071,
+      "total_ms": 76.86209678649902,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 544,
+      "fps": 11.07550283733077,
+      "total_ms": 90.28935432434082,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 545,
+      "fps": 14.191809003058767,
+      "total_ms": 70.46318054199219,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 546,
+      "fps": 15.65336687205401,
+      "total_ms": 63.88401985168457,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 547,
+      "fps": 16.287800180185776,
+      "total_ms": 61.39564514160156,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 548,
+      "fps": 16.75182024051538,
+      "total_ms": 59.69500541687012,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 549,
+      "fps": 12.634739702258665,
+      "total_ms": 79.1468620300293,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 550,
+      "fps": 12.97891157094098,
+      "total_ms": 77.04806327819824,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 551,
+      "fps": 11.349361272638225,
+      "total_ms": 88.11068534851074,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 552,
+      "fps": 11.33375127002313,
+      "total_ms": 88.23204040527344,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 553,
+      "fps": 9.72245041770591,
+      "total_ms": 102.85472869873047,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 554,
+      "fps": 10.201817903208937,
+      "total_ms": 98.0217456817627,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 555,
+      "fps": 11.267710972192747,
+      "total_ms": 88.74917030334473,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 556,
+      "fps": 10.244802251055182,
+      "total_ms": 97.6104736328125,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 557,
+      "fps": 11.245566715106147,
+      "total_ms": 88.92393112182617,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 558,
+      "fps": 10.76456215994251,
+      "total_ms": 92.89741516113281,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 559,
+      "fps": 10.019478518447738,
+      "total_ms": 99.80559349060059,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 560,
+      "fps": 10.434734150006468,
+      "total_ms": 95.83377838134766,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 561,
+      "fps": 9.774585589007767,
+      "total_ms": 102.30612754821777,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 562,
+      "fps": 10.59189074526758,
+      "total_ms": 94.41184997558594,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 563,
+      "fps": 11.243366117406119,
+      "total_ms": 88.94133567810059,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 564,
+      "fps": 10.137780678220095,
+      "total_ms": 98.64091873168945,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 565,
+      "fps": 10.947212369401184,
+      "total_ms": 91.34745597839355,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 566,
+      "fps": 10.815943721972516,
+      "total_ms": 92.45610237121582,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 567,
+      "fps": 12.500607996948094,
+      "total_ms": 79.99610900878906,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 568,
+      "fps": 13.436434637476415,
+      "total_ms": 74.42450523376465,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 569,
+      "fps": 13.263502082351714,
+      "total_ms": 75.39486885070801,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 570,
+      "fps": 11.718584372441809,
+      "total_ms": 85.33453941345215,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 571,
+      "fps": 13.517585445638687,
+      "total_ms": 73.97770881652832,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 572,
+      "fps": 14.735883526799517,
+      "total_ms": 67.86155700683594,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 573,
+      "fps": 13.156908444717699,
+      "total_ms": 76.00569725036621,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 574,
+      "fps": 17.928666689464144,
+      "total_ms": 55.77659606933594,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 575,
+      "fps": 15.783784597437297,
+      "total_ms": 63.35616111755371,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 576,
+      "fps": 12.65731167804354,
+      "total_ms": 79.00571823120117,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 577,
+      "fps": 11.48363003159549,
+      "total_ms": 87.08047866821289,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 578,
+      "fps": 10.867170517228425,
+      "total_ms": 92.02027320861816,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 579,
+      "fps": 10.716951434827823,
+      "total_ms": 93.31011772155762,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 580,
+      "fps": 11.167984237082795,
+      "total_ms": 89.54167366027832,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 581,
+      "fps": 13.505789616043483,
+      "total_ms": 74.04232025146484,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 582,
+      "fps": 13.255705323704628,
+      "total_ms": 75.4392147064209,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 583,
+      "fps": 10.824122055453476,
+      "total_ms": 92.38624572753906,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 584,
+      "fps": 10.704451953408128,
+      "total_ms": 93.41907501220703,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 585,
+      "fps": 10.97522771816067,
+      "total_ms": 91.11428260803223,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 586,
+      "fps": 10.49016586966526,
+      "total_ms": 95.32737731933594,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 587,
+      "fps": 14.612314006110667,
+      "total_ms": 68.4354305267334,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 588,
+      "fps": 13.26685834843697,
+      "total_ms": 75.37579536437988,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 589,
+      "fps": 14.035564895560746,
+      "total_ms": 71.24757766723633,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 590,
+      "fps": 13.134207213582929,
+      "total_ms": 76.13706588745117,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 591,
+      "fps": 13.782499400304284,
+      "total_ms": 72.5557804107666,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 592,
+      "fps": 10.643469610960405,
+      "total_ms": 93.95432472229004,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 593,
+      "fps": 11.236317948140945,
+      "total_ms": 88.99712562561035,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 594,
+      "fps": 13.985115633919284,
+      "total_ms": 71.50459289550781,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 595,
+      "fps": 10.84460808141399,
+      "total_ms": 92.21172332763672,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 596,
+      "fps": 11.150289370774749,
+      "total_ms": 89.68377113342285,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 597,
+      "fps": 10.027071609235522,
+      "total_ms": 99.73001480102539,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 598,
+      "fps": 10.728053078784344,
+      "total_ms": 93.21355819702148,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 599,
+      "fps": 10.60697116296478,
+      "total_ms": 94.27762031555176,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 600,
+      "fps": 11.028413064856252,
+      "total_ms": 90.67487716674805,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 601,
+      "fps": 10.2811648200804,
+      "total_ms": 97.26524353027344,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 602,
+      "fps": 9.773446766071775,
+      "total_ms": 102.31804847717285,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 603,
+      "fps": 8.891888912444351,
+      "total_ms": 112.46204376220703,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 604,
+      "fps": 8.957001394491652,
+      "total_ms": 111.64450645446777,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 605,
+      "fps": 10.50782643551458,
+      "total_ms": 95.16716003417969,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 606,
+      "fps": 9.6478446887795,
+      "total_ms": 103.65009307861328,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 607,
+      "fps": 9.167236390022993,
+      "total_ms": 109.0841293334961,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 608,
+      "fps": 10.418146230961062,
+      "total_ms": 95.98636627197266,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 609,
+      "fps": 9.288146402820345,
+      "total_ms": 107.66410827636719,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 610,
+      "fps": 8.667493263237944,
+      "total_ms": 115.37361145019531,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 611,
+      "fps": 10.360322396583367,
+      "total_ms": 96.52209281921387,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 612,
+      "fps": 11.349361272638225,
+      "total_ms": 88.11068534851074,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 613,
+      "fps": 12.071329073850228,
+      "total_ms": 82.8409194946289,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 614,
+      "fps": 12.071155368166577,
+      "total_ms": 82.84211158752441,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 615,
+      "fps": 15.17542006165246,
+      "total_ms": 65.89603424072266,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 616,
+      "fps": 11.717700435261184,
+      "total_ms": 85.34097671508789,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 617,
+      "fps": 13.989127027009,
+      "total_ms": 71.48408889770508,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 618,
+      "fps": 12.196821611876063,
+      "total_ms": 81.98857307434082,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 619,
+      "fps": 13.492581869651934,
+      "total_ms": 74.11479949951172,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 620,
+      "fps": 11.687139505464192,
+      "total_ms": 85.56413650512695,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 621,
+      "fps": 11.638785369603161,
+      "total_ms": 85.91961860656738,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 622,
+      "fps": 10.313600228190923,
+      "total_ms": 96.95935249328613,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 623,
+      "fps": 13.018875069450695,
+      "total_ms": 76.81155204772949,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 624,
+      "fps": 10.738572851352977,
+      "total_ms": 93.12224388122559,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 625,
+      "fps": 11.05774975020366,
+      "total_ms": 90.43431282043457,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 626,
+      "fps": 13.046208973050987,
+      "total_ms": 76.65061950683594,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 627,
+      "fps": 11.806393681194178,
+      "total_ms": 84.69986915588379,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 628,
+      "fps": 12.955699291411062,
+      "total_ms": 77.18610763549805,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 629,
+      "fps": 13.516714200544625,
+      "total_ms": 73.98247718811035,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 630,
+      "fps": 14.074278888098466,
+      "total_ms": 71.05159759521484,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 631,
+      "fps": 14.297561341432653,
+      "total_ms": 69.94199752807617,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 632,
+      "fps": 12.419913060987598,
+      "total_ms": 80.51586151123047,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 633,
+      "fps": 10.293174701337966,
+      "total_ms": 97.1517562866211,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 634,
+      "fps": 11.284748398483638,
+      "total_ms": 88.61517906188965,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 635,
+      "fps": 11.09527916069265,
+      "total_ms": 90.12842178344727,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 636,
+      "fps": 13.026314726992084,
+      "total_ms": 76.7676830291748,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 637,
+      "fps": 12.872557414380987,
+      "total_ms": 77.68464088439941,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 638,
+      "fps": 13.947168205155489,
+      "total_ms": 71.69914245605469,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 639,
+      "fps": 18.81798930404508,
+      "total_ms": 53.14064025878906,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 640,
+      "fps": 15.797695677229088,
+      "total_ms": 63.300371170043945,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 641,
+      "fps": 16.468529876004176,
+      "total_ms": 60.72187423706055,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 642,
+      "fps": 14.972491736097725,
+      "total_ms": 66.78915023803711,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 643,
+      "fps": 14.490599412679218,
+      "total_ms": 69.01025772094727,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 644,
+      "fps": 16.19810147602901,
+      "total_ms": 61.73563003540039,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 645,
+      "fps": 15.476908089917492,
+      "total_ms": 64.61238861083984,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 646,
+      "fps": 13.912563520810943,
+      "total_ms": 71.87747955322266,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 647,
+      "fps": 12.400635065176964,
+      "total_ms": 80.64103126525879,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 648,
+      "fps": 13.041949496425696,
+      "total_ms": 76.6756534576416,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 649,
+      "fps": 13.348048856555472,
+      "total_ms": 74.91731643676758,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 650,
+      "fps": 13.463606919420021,
+      "total_ms": 74.27430152893066,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 651,
+      "fps": 13.876660843788047,
+      "total_ms": 72.06344604492188,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 652,
+      "fps": 11.621306955931452,
+      "total_ms": 86.04884147644043,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 653,
+      "fps": 11.482686874438775,
+      "total_ms": 87.08763122558594,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 654,
+      "fps": 12.196963484461195,
+      "total_ms": 81.98761940002441,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 655,
+      "fps": 10.38777729070542,
+      "total_ms": 96.2669849395752,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 656,
+      "fps": 10.837994832041344,
+      "total_ms": 92.26799011230469,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 657,
+      "fps": 9.075888751603962,
+      "total_ms": 110.18204689025879,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 658,
+      "fps": 8.592684250960307,
+      "total_ms": 116.3780689239502,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 659,
+      "fps": 10.260440721750362,
+      "total_ms": 97.46170043945312,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 660,
+      "fps": 13.076062625872142,
+      "total_ms": 76.47562026977539,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 661,
+      "fps": 13.945266965677979,
+      "total_ms": 71.70891761779785,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 662,
+      "fps": 12.916281218242847,
+      "total_ms": 77.42166519165039,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 663,
+      "fps": 13.81245533670771,
+      "total_ms": 72.39842414855957,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 664,
+      "fps": 13.36595656538296,
+      "total_ms": 74.81694221496582,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 665,
+      "fps": 11.217895981213927,
+      "total_ms": 89.14327621459961,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 666,
+      "fps": 12.044395052794505,
+      "total_ms": 83.02617073059082,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 667,
+      "fps": 10.980370802812699,
+      "total_ms": 91.07160568237305,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 668,
+      "fps": 11.81883606709817,
+      "total_ms": 84.6107006072998,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 669,
+      "fps": 13.94132702240954,
+      "total_ms": 71.72918319702148,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 670,
+      "fps": 13.719025673063399,
+      "total_ms": 72.8914737701416,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 671,
+      "fps": 12.513437395579741,
+      "total_ms": 79.91409301757812,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 672,
+      "fps": 13.760704455008645,
+      "total_ms": 72.67069816589355,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 673,
+      "fps": 13.209366191638454,
+      "total_ms": 75.70385932922363,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 674,
+      "fps": 12.250828784148098,
+      "total_ms": 81.62713050842285,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 675,
+      "fps": 11.051834988089968,
+      "total_ms": 90.48271179199219,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 676,
+      "fps": 10.594218309948094,
+      "total_ms": 94.3911075592041,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 677,
+      "fps": 10.574319929408798,
+      "total_ms": 94.56872940063477,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 678,
+      "fps": 10.689665366873104,
+      "total_ms": 93.54829788208008,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 679,
+      "fps": 12.96711463965844,
+      "total_ms": 77.1181583404541,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 680,
+      "fps": 13.169384185953048,
+      "total_ms": 75.93369483947754,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 681,
+      "fps": 12.418111245658862,
+      "total_ms": 80.52754402160645,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 682,
+      "fps": 12.25652084977061,
+      "total_ms": 81.5892219543457,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 683,
+      "fps": 14.298146216413382,
+      "total_ms": 69.93913650512695,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 684,
+      "fps": 12.607281875866049,
+      "total_ms": 79.31923866271973,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 685,
+      "fps": 11.429804720924782,
+      "total_ms": 87.49055862426758,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 686,
+      "fps": 11.80476546976409,
+      "total_ms": 84.71155166625977,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 687,
+      "fps": 11.12975547624418,
+      "total_ms": 89.84923362731934,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 688,
+      "fps": 11.7612696988391,
+      "total_ms": 85.02483367919922,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 689,
+      "fps": 12.03416606175025,
+      "total_ms": 83.09674263000488,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 690,
+      "fps": 12.023782085461853,
+      "total_ms": 83.16850662231445,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 691,
+      "fps": 11.214656606114406,
+      "total_ms": 89.16902542114258,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 692,
+      "fps": 14.586600358204803,
+      "total_ms": 68.55607032775879,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 693,
+      "fps": 12.766455328254311,
+      "total_ms": 78.33027839660645,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 694,
+      "fps": 12.487358730990461,
+      "total_ms": 80.08098602294922,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 695,
+      "fps": 13.165291850289401,
+      "total_ms": 75.9572982788086,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 696,
+      "fps": 13.237172487360269,
+      "total_ms": 75.54483413696289,
+      "status": "SAFE"
+    },
+    {
+      "frame_idx": 697,
+      "fps": 12.243033156541259,
+      "total_ms": 81.67910575866699,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 698,
+      "fps": 11.277284398736304,
+      "total_ms": 88.67383003234863,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 699,
+      "fps": 11.480203968238762,
+      "total_ms": 87.10646629333496,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 700,
+      "fps": 9.425486970669398,
+      "total_ms": 106.0953140258789,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 701,
+      "fps": 9.74929802703758,
+      "total_ms": 102.57148742675781,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 702,
+      "fps": 15.041434462972925,
+      "total_ms": 66.4830207824707,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 703,
+      "fps": 11.783109852539196,
+      "total_ms": 84.86723899841309,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 704,
+      "fps": 11.550483576039303,
+      "total_ms": 86.57646179199219,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 705,
+      "fps": 9.550416121136221,
+      "total_ms": 104.70747947692871,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 706,
+      "fps": 9.092790031174259,
+      "total_ms": 109.97724533081055,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 707,
+      "fps": 10.247705794396177,
+      "total_ms": 97.58281707763672,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 708,
+      "fps": 11.714067871875148,
+      "total_ms": 85.36744117736816,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 709,
+      "fps": 9.233592518558307,
+      "total_ms": 108.30020904541016,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 710,
+      "fps": 9.019271543400754,
+      "total_ms": 110.87369918823242,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 711,
+      "fps": 8.720528765887199,
+      "total_ms": 114.67194557189941,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 712,
+      "fps": 9.234527672953206,
+      "total_ms": 108.28924179077148,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 713,
+      "fps": 12.193453107738822,
+      "total_ms": 82.01122283935547,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 714,
+      "fps": 10.75928799915861,
+      "total_ms": 92.94295310974121,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 715,
+      "fps": 10.594940865620217,
+      "total_ms": 94.38467025756836,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 716,
+      "fps": 10.474002931709157,
+      "total_ms": 95.4744815826416,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 717,
+      "fps": 12.055750210543561,
+      "total_ms": 82.94796943664551,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 718,
+      "fps": 14.937086446484662,
+      "total_ms": 66.94746017456055,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 719,
+      "fps": 12.177098031018284,
+      "total_ms": 82.12137222290039,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 720,
+      "fps": 11.982801326754792,
+      "total_ms": 83.45293998718262,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 721,
+      "fps": 12.574663021058186,
+      "total_ms": 79.52499389648438,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 722,
+      "fps": 12.627968591936028,
+      "total_ms": 79.18930053710938,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 723,
+      "fps": 14.49630878978074,
+      "total_ms": 68.98307800292969,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 724,
+      "fps": 12.934404440675353,
+      "total_ms": 77.31318473815918,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 725,
+      "fps": 13.636997346928158,
+      "total_ms": 73.32992553710938,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 726,
+      "fps": 13.280762971078278,
+      "total_ms": 75.29687881469727,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 727,
+      "fps": 13.262579406863535,
+      "total_ms": 75.40011405944824,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 728,
+      "fps": 13.265180003099411,
+      "total_ms": 75.38533210754395,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 729,
+      "fps": 12.500831540107653,
+      "total_ms": 79.99467849731445,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 730,
+      "fps": 11.87811232696708,
+      "total_ms": 84.18846130371094,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 731,
+      "fps": 13.563922710000808,
+      "total_ms": 73.72498512268066,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 732,
+      "fps": 10.538425782849792,
+      "total_ms": 94.89083290100098,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 733,
+      "fps": 10.244076622288654,
+      "total_ms": 97.61738777160645,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 734,
+      "fps": 10.457446463699533,
+      "total_ms": 95.62563896179199,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 735,
+      "fps": 11.115008413827828,
+      "total_ms": 89.96844291687012,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 736,
+      "fps": 9.280295956703942,
+      "total_ms": 107.75518417358398,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 737,
+      "fps": 10.778116407554927,
+      "total_ms": 92.78059005737305,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 738,
+      "fps": 10.079069543903493,
+      "total_ms": 99.21550750732422,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 739,
+      "fps": 13.964349209942801,
+      "total_ms": 71.61092758178711,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 740,
+      "fps": 10.470237872354234,
+      "total_ms": 95.50881385803223,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 741,
+      "fps": 11.214086909558555,
+      "total_ms": 89.17355537414551,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 742,
+      "fps": 10.321950643290972,
+      "total_ms": 96.88091278076172,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 743,
+      "fps": 10.29962011546329,
+      "total_ms": 97.0909595489502,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 744,
+      "fps": 11.553410681034388,
+      "total_ms": 86.55452728271484,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 745,
+      "fps": 9.446673183212537,
+      "total_ms": 105.85737228393555,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 746,
+      "fps": 9.553700936623056,
+      "total_ms": 104.67147827148438,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 747,
+      "fps": 10.810256886077841,
+      "total_ms": 92.50473976135254,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 748,
+      "fps": 10.340807727677284,
+      "total_ms": 96.70424461364746,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 749,
+      "fps": 9.766346500879001,
+      "total_ms": 102.39243507385254,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 750,
+      "fps": 11.39255001874175,
+      "total_ms": 87.77666091918945,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 751,
+      "fps": 11.427375762859635,
+      "total_ms": 87.5091552734375,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 752,
+      "fps": 10.401559376844444,
+      "total_ms": 96.13943099975586,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 753,
+      "fps": 10.976462768045472,
+      "total_ms": 91.10403060913086,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 754,
+      "fps": 10.536731438332936,
+      "total_ms": 94.90609169006348,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 755,
+      "fps": 9.829033150077567,
+      "total_ms": 101.73940658569336,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 756,
+      "fps": 14.846988693885352,
+      "total_ms": 67.35372543334961,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 757,
+      "fps": 14.47589596333315,
+      "total_ms": 69.08035278320312,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 758,
+      "fps": 11.843799680912646,
+      "total_ms": 84.43236351013184,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 759,
+      "fps": 10.85117325951414,
+      "total_ms": 92.15593338012695,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 760,
+      "fps": 12.093535012196458,
+      "total_ms": 82.68880844116211,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 761,
+      "fps": 9.618220551780755,
+      "total_ms": 103.96933555603027,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 762,
+      "fps": 12.670388361246042,
+      "total_ms": 78.92417907714844,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 763,
+      "fps": 13.569539659071424,
+      "total_ms": 73.69446754455566,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 764,
+      "fps": 11.750100151558023,
+      "total_ms": 85.10565757751465,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 765,
+      "fps": 10.112702408162871,
+      "total_ms": 98.88553619384766,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 766,
+      "fps": 10.58467377644084,
+      "total_ms": 94.47622299194336,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 767,
+      "fps": 11.290550435007322,
+      "total_ms": 88.56964111328125,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 768,
+      "fps": 11.462540378340266,
+      "total_ms": 87.24069595336914,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 769,
+      "fps": 9.714883957937648,
+      "total_ms": 102.9348373413086,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 770,
+      "fps": 10.397253380597663,
+      "total_ms": 96.17924690246582,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 771,
+      "fps": 11.470973211721752,
+      "total_ms": 87.17656135559082,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 772,
+      "fps": 10.48806737482246,
+      "total_ms": 95.34645080566406,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 773,
+      "fps": 10.609600562566559,
+      "total_ms": 94.2542552947998,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 774,
+      "fps": 10.846010229782216,
+      "total_ms": 92.19980239868164,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 775,
+      "fps": 12.231536646748847,
+      "total_ms": 81.7558765411377,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 776,
+      "fps": 10.767823126806702,
+      "total_ms": 92.86928176879883,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 777,
+      "fps": 10.605227892205697,
+      "total_ms": 94.29311752319336,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 778,
+      "fps": 10.259261161702513,
+      "total_ms": 97.4729061126709,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 779,
+      "fps": 10.485366798745048,
+      "total_ms": 95.37100791931152,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 780,
+      "fps": 14.056543828840303,
+      "total_ms": 71.14124298095703,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 781,
+      "fps": 10.893418971459441,
+      "total_ms": 91.79854393005371,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 782,
+      "fps": 12.13246979395966,
+      "total_ms": 82.42344856262207,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 783,
+      "fps": 10.347108742845865,
+      "total_ms": 96.64535522460938,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 784,
+      "fps": 10.362370078292729,
+      "total_ms": 96.50301933288574,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 785,
+      "fps": 11.934793062728527,
+      "total_ms": 83.78863334655762,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 786,
+      "fps": 10.965299981438248,
+      "total_ms": 91.19677543640137,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 787,
+      "fps": 10.644712164394825,
+      "total_ms": 93.94335746765137,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 788,
+      "fps": 10.44707968745719,
+      "total_ms": 95.72052955627441,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 789,
+      "fps": 10.815971613355751,
+      "total_ms": 92.45586395263672,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 790,
+      "fps": 10.505984019237031,
+      "total_ms": 95.1838493347168,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 791,
+      "fps": 12.20935458705448,
+      "total_ms": 81.90441131591797,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 792,
+      "fps": 13.321552099246945,
+      "total_ms": 75.06632804870605,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 793,
+      "fps": 11.260088109038291,
+      "total_ms": 88.80925178527832,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 794,
+      "fps": 11.649485337821698,
+      "total_ms": 85.84070205688477,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 795,
+      "fps": 11.060578251743088,
+      "total_ms": 90.41118621826172,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 796,
+      "fps": 13.296045394747269,
+      "total_ms": 75.2103328704834,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 797,
+      "fps": 10.459715308880886,
+      "total_ms": 95.60489654541016,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 798,
+      "fps": 12.4723199391,
+      "total_ms": 80.17754554748535,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 799,
+      "fps": 11.463480228706366,
+      "total_ms": 87.2335433959961,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 800,
+      "fps": 10.504300089658248,
+      "total_ms": 95.1991081237793,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 801,
+      "fps": 11.86218911382238,
+      "total_ms": 84.30147171020508,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 802,
+      "fps": 10.918202713994539,
+      "total_ms": 91.59016609191895,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 803,
+      "fps": 10.489116517285531,
+      "total_ms": 95.3369140625,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 804,
+      "fps": 10.042292368985596,
+      "total_ms": 99.578857421875,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 805,
+      "fps": 11.871254061519998,
+      "total_ms": 84.23709869384766,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 806,
+      "fps": 9.960753580647996,
+      "total_ms": 100.39401054382324,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 807,
+      "fps": 10.241250152606518,
+      "total_ms": 97.64432907104492,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 808,
+      "fps": 10.004040442588268,
+      "total_ms": 99.9596118927002,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 809,
+      "fps": 9.327640193566753,
+      "total_ms": 107.208251953125,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 810,
+      "fps": 11.306163488105668,
+      "total_ms": 88.44733238220215,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 811,
+      "fps": 14.428885953324526,
+      "total_ms": 69.305419921875,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 812,
+      "fps": 10.258909855813327,
+      "total_ms": 97.47624397277832,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 813,
+      "fps": 10.40532682365316,
+      "total_ms": 96.10462188720703,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 814,
+      "fps": 11.78297744428494,
+      "total_ms": 84.86819267272949,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 815,
+      "fps": 9.87443380324133,
+      "total_ms": 101.2716293334961,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 816,
+      "fps": 13.695865415385017,
+      "total_ms": 73.01473617553711,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 817,
+      "fps": 10.17624937525172,
+      "total_ms": 98.26803207397461,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 818,
+      "fps": 10.855919722746343,
+      "total_ms": 92.11564064025879,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 819,
+      "fps": 9.494466489950494,
+      "total_ms": 105.32450675964355,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 820,
+      "fps": 10.17244858362437,
+      "total_ms": 98.30474853515625,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 821,
+      "fps": 12.870779862402495,
+      "total_ms": 77.69536972045898,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 822,
+      "fps": 10.341776615076595,
+      "total_ms": 96.6951847076416,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 823,
+      "fps": 9.96404272302254,
+      "total_ms": 100.36087036132812,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 824,
+      "fps": 11.544919805231446,
+      "total_ms": 86.61818504333496,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 825,
+      "fps": 9.918801316735404,
+      "total_ms": 100.81863403320312,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 826,
+      "fps": 10.693753505685585,
+      "total_ms": 93.51253509521484,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 827,
+      "fps": 10.27597595096113,
+      "total_ms": 97.31435775756836,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 828,
+      "fps": 11.300345398015983,
+      "total_ms": 88.49287033081055,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 829,
+      "fps": 9.5726926438938,
+      "total_ms": 104.46381568908691,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 830,
+      "fps": 10.324999753832824,
+      "total_ms": 96.85230255126953,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 831,
+      "fps": 9.85239855865675,
+      "total_ms": 101.49812698364258,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 832,
+      "fps": 10.23337928342259,
+      "total_ms": 97.71943092346191,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 833,
+      "fps": 11.546763203898195,
+      "total_ms": 86.60435676574707,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 834,
+      "fps": 10.061395491650895,
+      "total_ms": 99.38979148864746,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 835,
+      "fps": 9.878433884764668,
+      "total_ms": 101.23062133789062,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 836,
+      "fps": 9.317362715478941,
+      "total_ms": 107.32650756835938,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 837,
+      "fps": 11.666075153672852,
+      "total_ms": 85.71863174438477,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 838,
+      "fps": 13.597650247359446,
+      "total_ms": 73.54211807250977,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 839,
+      "fps": 15.998108133880041,
+      "total_ms": 62.50739097595215,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 840,
+      "fps": 11.385344535077838,
+      "total_ms": 87.83221244812012,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 841,
+      "fps": 10.098920837326219,
+      "total_ms": 99.02048110961914,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 842,
+      "fps": 10.353442998479434,
+      "total_ms": 96.58622741699219,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 843,
+      "fps": 9.814451516286034,
+      "total_ms": 101.89056396484375,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 844,
+      "fps": 10.881859692818598,
+      "total_ms": 91.89605712890625,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 845,
+      "fps": 11.003473424628785,
+      "total_ms": 90.8803939819336,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 846,
+      "fps": 10.801320580767111,
+      "total_ms": 92.58127212524414,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 847,
+      "fps": 11.877305060939694,
+      "total_ms": 84.19418334960938,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 848,
+      "fps": 10.286560751055804,
+      "total_ms": 97.2142219543457,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 849,
+      "fps": 9.691695184311406,
+      "total_ms": 103.18112373352051,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 850,
+      "fps": 11.870044601417284,
+      "total_ms": 84.24568176269531,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 851,
+      "fps": 10.400321360027375,
+      "total_ms": 96.15087509155273,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 852,
+      "fps": 10.756225284785943,
+      "total_ms": 92.96941757202148,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 853,
+      "fps": 11.713511732211778,
+      "total_ms": 85.37149429321289,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 854,
+      "fps": 13.010798117696691,
+      "total_ms": 76.8592357635498,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 855,
+      "fps": 10.361243753195968,
+      "total_ms": 96.51350975036621,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 856,
+      "fps": 10.100550264295434,
+      "total_ms": 99.00450706481934,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 857,
+      "fps": 10.493997788263787,
+      "total_ms": 95.29256820678711,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 858,
+      "fps": 9.832305009095512,
+      "total_ms": 101.70555114746094,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 859,
+      "fps": 10.699946172508183,
+      "total_ms": 93.45841407775879,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 860,
+      "fps": 10.765252877840945,
+      "total_ms": 92.89145469665527,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 861,
+      "fps": 9.846754844374328,
+      "total_ms": 101.55630111694336,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 862,
+      "fps": 11.353508667453468,
+      "total_ms": 88.07849884033203,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 863,
+      "fps": 10.666693793471765,
+      "total_ms": 93.7497615814209,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 864,
+      "fps": 10.226193639934365,
+      "total_ms": 97.78809547424316,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 865,
+      "fps": 9.549350673005119,
+      "total_ms": 104.71916198730469,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 866,
+      "fps": 11.621886577056612,
+      "total_ms": 86.0445499420166,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 867,
+      "fps": 12.046332223757183,
+      "total_ms": 83.01281929016113,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 868,
+      "fps": 12.455800555332829,
+      "total_ms": 80.28388023376465,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 869,
+      "fps": 10.134449314512427,
+      "total_ms": 98.67334365844727,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 870,
+      "fps": 11.508648696110281,
+      "total_ms": 86.89117431640625,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 871,
+      "fps": 10.938533237013063,
+      "total_ms": 91.41993522644043,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 872,
+      "fps": 10.785766083615773,
+      "total_ms": 92.71478652954102,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 873,
+      "fps": 11.006129817784869,
+      "total_ms": 90.85845947265625,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 874,
+      "fps": 11.276768958601073,
+      "total_ms": 88.67788314819336,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 875,
+      "fps": 11.976095230752977,
+      "total_ms": 83.49967002868652,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 876,
+      "fps": 10.987734657843584,
+      "total_ms": 91.01057052612305,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 877,
+      "fps": 10.70213031973933,
+      "total_ms": 93.43934059143066,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 878,
+      "fps": 9.68701701225455,
+      "total_ms": 103.23095321655273,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 879,
+      "fps": 10.051100173017844,
+      "total_ms": 99.49159622192383,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 880,
+      "fps": 9.628487605999807,
+      "total_ms": 103.85847091674805,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 881,
+      "fps": 10.775928823391885,
+      "total_ms": 92.79942512512207,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 882,
+      "fps": 10.503353116470088,
+      "total_ms": 95.20769119262695,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 883,
+      "fps": 10.954560412868716,
+      "total_ms": 91.28618240356445,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 884,
+      "fps": 11.381791538899893,
+      "total_ms": 87.8596305847168,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 885,
+      "fps": 10.966045372188422,
+      "total_ms": 91.19057655334473,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 886,
+      "fps": 11.573047845041664,
+      "total_ms": 86.40766143798828,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 887,
+      "fps": 10.761800174475292,
+      "total_ms": 92.92125701904297,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 888,
+      "fps": 9.62632197414806,
+      "total_ms": 103.8818359375,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 889,
+      "fps": 10.344913995945205,
+      "total_ms": 96.66585922241211,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 890,
+      "fps": 11.331669098179068,
+      "total_ms": 88.24825286865234,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 891,
+      "fps": 14.040639248006535,
+      "total_ms": 71.22182846069336,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 892,
+      "fps": 10.704315358839096,
+      "total_ms": 93.42026710510254,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 893,
+      "fps": 10.31847177632631,
+      "total_ms": 96.91357612609863,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 894,
+      "fps": 10.093744209272383,
+      "total_ms": 99.07126426696777,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 895,
+      "fps": 9.813578912395473,
+      "total_ms": 101.89962387084961,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 896,
+      "fps": 11.450523890384332,
+      "total_ms": 87.33224868774414,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 897,
+      "fps": 10.349329957830895,
+      "total_ms": 96.62461280822754,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 898,
+      "fps": 11.13341880546066,
+      "total_ms": 89.81966972351074,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 899,
+      "fps": 11.132295916065281,
+      "total_ms": 89.8287296295166,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 900,
+      "fps": 10.065258656478951,
+      "total_ms": 99.35164451599121,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 901,
+      "fps": 10.772828959703704,
+      "total_ms": 92.82612800598145,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 902,
+      "fps": 13.226236125126135,
+      "total_ms": 75.6072998046875,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 903,
+      "fps": 13.947817527617604,
+      "total_ms": 71.69580459594727,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 904,
+      "fps": 9.831567498640464,
+      "total_ms": 101.71318054199219,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 905,
+      "fps": 10.09965036648912,
+      "total_ms": 99.0133285522461,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 906,
+      "fps": 10.830270917898346,
+      "total_ms": 92.33379364013672,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 907,
+      "fps": 9.624510663295043,
+      "total_ms": 103.90138626098633,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 908,
+      "fps": 10.144278233949668,
+      "total_ms": 98.57773780822754,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 909,
+      "fps": 10.631760653169652,
+      "total_ms": 94.05779838562012,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 910,
+      "fps": 12.400121804480158,
+      "total_ms": 80.64436912536621,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 911,
+      "fps": 10.422132878775079,
+      "total_ms": 95.94964981079102,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 912,
+      "fps": 10.561539042630876,
+      "total_ms": 94.68317031860352,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 913,
+      "fps": 10.608527180799806,
+      "total_ms": 94.26379203796387,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 914,
+      "fps": 11.138385874342408,
+      "total_ms": 89.77961540222168,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 915,
+      "fps": 13.021623517943018,
+      "total_ms": 76.79533958435059,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 916,
+      "fps": 11.194183930010729,
+      "total_ms": 89.33210372924805,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 917,
+      "fps": 10.6619487023056,
+      "total_ms": 93.79148483276367,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 918,
+      "fps": 12.663196666867943,
+      "total_ms": 78.96900177001953,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 919,
+      "fps": 10.525705050667282,
+      "total_ms": 95.00551223754883,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 920,
+      "fps": 10.904322415935692,
+      "total_ms": 91.70675277709961,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 921,
+      "fps": 11.936117656433197,
+      "total_ms": 83.77933502197266,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 922,
+      "fps": 9.932377582965099,
+      "total_ms": 100.68082809448242,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 923,
+      "fps": 10.20578967474749,
+      "total_ms": 97.98359870910645,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 924,
+      "fps": 9.396389574661606,
+      "total_ms": 106.42385482788086,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 925,
+      "fps": 9.022531030180481,
+      "total_ms": 110.83364486694336,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 926,
+      "fps": 14.959888718479153,
+      "total_ms": 66.84541702270508,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 927,
+      "fps": 13.823198483974624,
+      "total_ms": 72.3421573638916,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 928,
+      "fps": 11.016565675667866,
+      "total_ms": 90.77239036560059,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 929,
+      "fps": 9.17010247294972,
+      "total_ms": 109.05003547668457,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 930,
+      "fps": 9.360593285588989,
+      "total_ms": 106.83083534240723,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 931,
+      "fps": 10.705599485433375,
+      "total_ms": 93.40906143188477,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 932,
+      "fps": 13.575644585995507,
+      "total_ms": 73.66132736206055,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 933,
+      "fps": 10.971007669209119,
+      "total_ms": 91.14933013916016,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 934,
+      "fps": 10.718019482178814,
+      "total_ms": 93.30081939697266,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 935,
+      "fps": 9.302979221747076,
+      "total_ms": 107.49244689941406,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 936,
+      "fps": 10.856566012144805,
+      "total_ms": 92.11015701293945,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 937,
+      "fps": 10.699782397404075,
+      "total_ms": 93.4598445892334,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 938,
+      "fps": 10.623305244655173,
+      "total_ms": 94.13266181945801,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 939,
+      "fps": 9.756963603627076,
+      "total_ms": 102.49090194702148,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 940,
+      "fps": 9.937625425588124,
+      "total_ms": 100.62766075134277,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 941,
+      "fps": 10.503379418975332,
+      "total_ms": 95.20745277404785,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 942,
+      "fps": 9.428877159222726,
+      "total_ms": 106.05716705322266,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 943,
+      "fps": 9.965889380467893,
+      "total_ms": 100.3422737121582,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 944,
+      "fps": 11.2831091132614,
+      "total_ms": 88.62805366516113,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 945,
+      "fps": 11.390848331282912,
+      "total_ms": 87.78977394104004,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 946,
+      "fps": 11.058274517454935,
+      "total_ms": 90.43002128601074,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 947,
+      "fps": 10.260741929486365,
+      "total_ms": 97.4588394165039,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 948,
+      "fps": 11.368125479397104,
+      "total_ms": 87.96525001525879,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 949,
+      "fps": 14.011558530930762,
+      "total_ms": 71.36964797973633,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 950,
+      "fps": 10.728492134544059,
+      "total_ms": 93.20974349975586,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 951,
+      "fps": 10.103542969465135,
+      "total_ms": 98.97518157958984,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 952,
+      "fps": 12.009804146145918,
+      "total_ms": 83.26530456542969,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 953,
+      "fps": 11.852468096169279,
+      "total_ms": 84.37061309814453,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 954,
+      "fps": 11.3504976645757,
+      "total_ms": 88.10186386108398,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 955,
+      "fps": 12.096185680584636,
+      "total_ms": 82.67068862915039,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 956,
+      "fps": 11.675070215140861,
+      "total_ms": 85.65258979797363,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 957,
+      "fps": 10.139716814416017,
+      "total_ms": 98.62208366394043,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 958,
+      "fps": 10.713666469982707,
+      "total_ms": 93.3387279510498,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 959,
+      "fps": 10.833963589775381,
+      "total_ms": 92.30232238769531,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 960,
+      "fps": 10.218520151731834,
+      "total_ms": 97.86152839660645,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 961,
+      "fps": 13.028095035456587,
+      "total_ms": 76.75719261169434,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 962,
+      "fps": 14.181444414390047,
+      "total_ms": 70.51467895507812,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 963,
+      "fps": 12.540637510950585,
+      "total_ms": 79.74076271057129,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 964,
+      "fps": 12.02633329510265,
+      "total_ms": 83.15086364746094,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 965,
+      "fps": 9.777524978203807,
+      "total_ms": 102.27537155151367,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 966,
+      "fps": 10.125177129476517,
+      "total_ms": 98.76370429992676,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 967,
+      "fps": 13.079732561620597,
+      "total_ms": 76.45416259765625,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 968,
+      "fps": 10.07159099913795,
+      "total_ms": 99.2891788482666,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 969,
+      "fps": 10.406230384288078,
+      "total_ms": 96.09627723693848,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 970,
+      "fps": 11.168638478150305,
+      "total_ms": 89.53642845153809,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 971,
+      "fps": 10.087844955721563,
+      "total_ms": 99.12919998168945,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 972,
+      "fps": 10.110532849618533,
+      "total_ms": 98.9067554473877,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 973,
+      "fps": 17.81837955410549,
+      "total_ms": 56.121826171875,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 974,
+      "fps": 10.837630777260712,
+      "total_ms": 92.27108955383301,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 975,
+      "fps": 10.989202855832842,
+      "total_ms": 90.99841117858887,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 976,
+      "fps": 9.531101087339371,
+      "total_ms": 104.9196720123291,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 977,
+      "fps": 10.881859692818598,
+      "total_ms": 91.89605712890625,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 978,
+      "fps": 12.855158547723692,
+      "total_ms": 77.7897834777832,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 979,
+      "fps": 11.063408200677895,
+      "total_ms": 90.38805961608887,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 980,
+      "fps": 9.579973505093417,
+      "total_ms": 104.3844223022461,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 981,
+      "fps": 9.85475973421802,
+      "total_ms": 101.47380828857422,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 982,
+      "fps": 10.39560412324119,
+      "total_ms": 96.19450569152832,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 983,
+      "fps": 11.90005135319936,
+      "total_ms": 84.03325080871582,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 984,
+      "fps": 9.872504689923666,
+      "total_ms": 101.29141807556152,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 985,
+      "fps": 11.052417442264922,
+      "total_ms": 90.47794342041016,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 986,
+      "fps": 10.058379456877285,
+      "total_ms": 99.41959381103516,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 987,
+      "fps": 9.558512589932157,
+      "total_ms": 104.61878776550293,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 988,
+      "fps": 13.738708314362363,
+      "total_ms": 72.78704643249512,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 989,
+      "fps": 9.883485125184094,
+      "total_ms": 101.17888450622559,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 990,
+      "fps": 13.28059476540583,
+      "total_ms": 75.29783248901367,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 991,
+      "fps": 16.52589026091205,
+      "total_ms": 60.511112213134766,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 992,
+      "fps": 13.54010246344857,
+      "total_ms": 73.85468482971191,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 993,
+      "fps": 11.8029052065218,
+      "total_ms": 84.72490310668945,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 994,
+      "fps": 11.654632199909415,
+      "total_ms": 85.80279350280762,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 995,
+      "fps": 9.547350881825382,
+      "total_ms": 104.74109649658203,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 996,
+      "fps": 10.748865351644888,
+      "total_ms": 93.0330753326416,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 997,
+      "fps": 14.955781306271774,
+      "total_ms": 66.8637752532959,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 998,
+      "fps": 10.541471677817265,
+      "total_ms": 94.8634147644043,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 999,
+      "fps": 9.882926208591444,
+      "total_ms": 101.18460655212402,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1000,
+      "fps": 10.186778063826686,
+      "total_ms": 98.16646575927734,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1001,
+      "fps": 11.037264514635025,
+      "total_ms": 90.60215950012207,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1002,
+      "fps": 10.652579393299064,
+      "total_ms": 93.87397766113281,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1003,
+      "fps": 12.17278647798377,
+      "total_ms": 82.15045928955078,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1004,
+      "fps": 13.012170492372888,
+      "total_ms": 76.85112953186035,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1005,
+      "fps": 11.457937338312467,
+      "total_ms": 87.27574348449707,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1006,
+      "fps": 12.137033789668932,
+      "total_ms": 82.39245414733887,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1007,
+      "fps": 11.246169768925926,
+      "total_ms": 88.91916275024414,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1008,
+      "fps": 9.536301938270903,
+      "total_ms": 104.86245155334473,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1009,
+      "fps": 10.271697817483641,
+      "total_ms": 97.35488891601562,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1010,
+      "fps": 10.295372818160173,
+      "total_ms": 97.13101387023926,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1011,
+      "fps": 12.058765690496863,
+      "total_ms": 82.92722702026367,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1012,
+      "fps": 9.474092696622868,
+      "total_ms": 105.55100440979004,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1013,
+      "fps": 11.662571808318365,
+      "total_ms": 85.74438095092773,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1014,
+      "fps": 13.940956318843856,
+      "total_ms": 71.7310905456543,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1015,
+      "fps": 14.331612343291384,
+      "total_ms": 69.77581977844238,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1016,
+      "fps": 15.884266097086202,
+      "total_ms": 62.955379486083984,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1017,
+      "fps": 15.214227935708767,
+      "total_ms": 65.72794914245605,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1018,
+      "fps": 13.472169491634306,
+      "total_ms": 74.22709465026855,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1019,
+      "fps": 14.120286425106299,
+      "total_ms": 70.82009315490723,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1020,
+      "fps": 13.917133689697621,
+      "total_ms": 71.8538761138916,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1021,
+      "fps": 13.341892222883153,
+      "total_ms": 74.9518871307373,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1022,
+      "fps": 12.05342897211302,
+      "total_ms": 82.96394348144531,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1023,
+      "fps": 11.57260080456028,
+      "total_ms": 86.4109992980957,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1024,
+      "fps": 12.079255368168832,
+      "total_ms": 82.78656005859375,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1025,
+      "fps": 12.064627660339477,
+      "total_ms": 82.88693428039551,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1026,
+      "fps": 11.890200792055632,
+      "total_ms": 84.10286903381348,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1027,
+      "fps": 11.021255238921079,
+      "total_ms": 90.73376655578613,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1028,
+      "fps": 11.692906427287047,
+      "total_ms": 85.52193641662598,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1029,
+      "fps": 11.265017591921145,
+      "total_ms": 88.77038955688477,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1030,
+      "fps": 9.46851056721162,
+      "total_ms": 105.61323165893555,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1031,
+      "fps": 10.005663262506769,
+      "total_ms": 99.94339942932129,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1032,
+      "fps": 11.135221812196352,
+      "total_ms": 89.80512619018555,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1033,
+      "fps": 10.349483180224395,
+      "total_ms": 96.62318229675293,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1034,
+      "fps": 13.262537470118765,
+      "total_ms": 75.40035247802734,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1035,
+      "fps": 13.094800860435276,
+      "total_ms": 76.36618614196777,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1036,
+      "fps": 12.54153746789342,
+      "total_ms": 79.73504066467285,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1037,
+      "fps": 11.783871257754203,
+      "total_ms": 84.86175537109375,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1038,
+      "fps": 11.299858290542106,
+      "total_ms": 88.49668502807617,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1039,
+      "fps": 11.477596501693876,
+      "total_ms": 87.12625503540039,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1040,
+      "fps": 16.05106578393479,
+      "total_ms": 62.3011589050293,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1041,
+      "fps": 14.840002122879332,
+      "total_ms": 67.38543510437012,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1042,
+      "fps": 15.515381086959739,
+      "total_ms": 64.4521713256836,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1043,
+      "fps": 14.697980838642305,
+      "total_ms": 68.03655624389648,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1044,
+      "fps": 12.228897642157191,
+      "total_ms": 81.77351951599121,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1045,
+      "fps": 12.11089005991482,
+      "total_ms": 82.57031440734863,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1046,
+      "fps": 10.628231442486532,
+      "total_ms": 94.08903121948242,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1047,
+      "fps": 9.820679062209516,
+      "total_ms": 101.82595252990723,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1048,
+      "fps": 11.298884201565674,
+      "total_ms": 88.50431442260742,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1049,
+      "fps": 12.12534979994912,
+      "total_ms": 82.47184753417969,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1050,
+      "fps": 11.230601572812882,
+      "total_ms": 89.04242515563965,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1051,
+      "fps": 11.910256446661878,
+      "total_ms": 83.96124839782715,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1052,
+      "fps": 9.111575032531222,
+      "total_ms": 109.75050926208496,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1053,
+      "fps": 9.142518348013924,
+      "total_ms": 109.37905311584473,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1054,
+      "fps": 13.787483029870716,
+      "total_ms": 72.52955436706543,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1055,
+      "fps": 15.090518559560774,
+      "total_ms": 66.26677513122559,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1056,
+      "fps": 13.430325231107169,
+      "total_ms": 74.45836067199707,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1057,
+      "fps": 13.003335854859312,
+      "total_ms": 76.9033432006836,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1058,
+      "fps": 13.756822974918741,
+      "total_ms": 72.69120216369629,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1059,
+      "fps": 11.024296903748095,
+      "total_ms": 90.70873260498047,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1060,
+      "fps": 11.150111519617617,
+      "total_ms": 89.68520164489746,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1061,
+      "fps": 12.329334575779933,
+      "total_ms": 81.10737800598145,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1062,
+      "fps": 11.462853644671826,
+      "total_ms": 87.23831176757812,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1063,
+      "fps": 9.755284310806788,
+      "total_ms": 102.508544921875,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1064,
+      "fps": 10.432969175969594,
+      "total_ms": 95.84999084472656,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1065,
+      "fps": 11.422894243757899,
+      "total_ms": 87.54348754882812,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1066,
+      "fps": 10.120657288323722,
+      "total_ms": 98.80781173706055,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1067,
+      "fps": 10.303896231513782,
+      "total_ms": 97.05066680908203,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1068,
+      "fps": 9.735426352450741,
+      "total_ms": 102.71763801574707,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1069,
+      "fps": 12.260999459198738,
+      "total_ms": 81.55941963195801,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1070,
+      "fps": 10.896022486679708,
+      "total_ms": 91.77660942077637,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1071,
+      "fps": 12.829835004496541,
+      "total_ms": 77.94332504272461,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1072,
+      "fps": 13.864276128332772,
+      "total_ms": 72.1278190612793,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1073,
+      "fps": 12.318688451405798,
+      "total_ms": 81.1774730682373,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1074,
+      "fps": 11.935234561296674,
+      "total_ms": 83.7855339050293,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1075,
+      "fps": 11.508175041087847,
+      "total_ms": 86.89475059509277,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1076,
+      "fps": 9.847517755473381,
+      "total_ms": 101.54843330383301,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1077,
+      "fps": 9.80341762477182,
+      "total_ms": 102.0052433013916,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1078,
+      "fps": 9.639131024307511,
+      "total_ms": 103.7437915802002,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1079,
+      "fps": 10.801487479011506,
+      "total_ms": 92.57984161376953,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1080,
+      "fps": 9.284712768100446,
+      "total_ms": 107.70392417907715,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1081,
+      "fps": 9.333057411721773,
+      "total_ms": 107.14602470397949,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1082,
+      "fps": 10.871987350631173,
+      "total_ms": 91.9795036315918,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1083,
+      "fps": 10.533714736337174,
+      "total_ms": 94.93327140808105,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1084,
+      "fps": 9.566251870233186,
+      "total_ms": 104.53414916992188,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1085,
+      "fps": 9.696355461028979,
+      "total_ms": 103.13153266906738,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1086,
+      "fps": 10.657343225937595,
+      "total_ms": 93.83201599121094,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1087,
+      "fps": 11.599965705972968,
+      "total_ms": 86.20715141296387,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1088,
+      "fps": 11.935845920934309,
+      "total_ms": 83.78124237060547,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1089,
+      "fps": 10.756942520953231,
+      "total_ms": 92.96321868896484,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1090,
+      "fps": 13.095904782125416,
+      "total_ms": 76.35974884033203,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1091,
+      "fps": 11.449648673585822,
+      "total_ms": 87.33892440795898,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1092,
+      "fps": 11.192750057374031,
+      "total_ms": 89.34354782104492,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1093,
+      "fps": 10.352293061702007,
+      "total_ms": 96.59695625305176,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1094,
+      "fps": 10.29274529387658,
+      "total_ms": 97.15580940246582,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1095,
+      "fps": 10.60434306633934,
+      "total_ms": 94.30098533630371,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1096,
+      "fps": 9.993862107089075,
+      "total_ms": 100.06141662597656,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1097,
+      "fps": 9.672942630739001,
+      "total_ms": 103.38115692138672,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1098,
+      "fps": 10.896673559945546,
+      "total_ms": 91.77112579345703,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1099,
+      "fps": 9.252535769907833,
+      "total_ms": 108.0784797668457,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1100,
+      "fps": 10.55946506616181,
+      "total_ms": 94.70176696777344,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1101,
+      "fps": 11.441808951461766,
+      "total_ms": 87.39876747131348,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1102,
+      "fps": 11.30074120376233,
+      "total_ms": 88.48977088928223,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1103,
+      "fps": 12.576359716587659,
+      "total_ms": 79.5142650604248,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1104,
+      "fps": 11.628911026147904,
+      "total_ms": 85.99257469177246,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1105,
+      "fps": 10.994013231701564,
+      "total_ms": 90.9585952758789,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1106,
+      "fps": 11.341995603064333,
+      "total_ms": 88.16790580749512,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1107,
+      "fps": 11.030994479642532,
+      "total_ms": 90.65365791320801,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1108,
+      "fps": 9.764482117207198,
+      "total_ms": 102.41198539733887,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1109,
+      "fps": 11.36236658178469,
+      "total_ms": 88.00983428955078,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1110,
+      "fps": 10.23747562246614,
+      "total_ms": 97.68033027648926,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1111,
+      "fps": 10.32904260113429,
+      "total_ms": 96.81439399719238,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1112,
+      "fps": 10.928529367316841,
+      "total_ms": 91.50362014770508,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1113,
+      "fps": 9.45704616120006,
+      "total_ms": 105.74126243591309,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1114,
+      "fps": 9.783066771472088,
+      "total_ms": 102.21743583679199,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1115,
+      "fps": 10.639041997580136,
+      "total_ms": 93.9934253692627,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1116,
+      "fps": 10.909654630674872,
+      "total_ms": 91.66193008422852,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1117,
+      "fps": 10.512514349018252,
+      "total_ms": 95.12472152709961,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1118,
+      "fps": 11.257489015752364,
+      "total_ms": 88.82975578308105,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1119,
+      "fps": 11.412823666423588,
+      "total_ms": 87.62073516845703,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1120,
+      "fps": 11.697113024853866,
+      "total_ms": 85.49118041992188,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1121,
+      "fps": 12.801250122082235,
+      "total_ms": 78.11737060546875,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1122,
+      "fps": 11.339849083334009,
+      "total_ms": 88.18459510803223,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1123,
+      "fps": 11.292526310971587,
+      "total_ms": 88.55414390563965,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1124,
+      "fps": 12.360035833844123,
+      "total_ms": 80.90591430664062,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1125,
+      "fps": 12.04844306560956,
+      "total_ms": 82.99827575683594,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1126,
+      "fps": 11.773517960752171,
+      "total_ms": 84.93638038635254,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1127,
+      "fps": 13.211737875943403,
+      "total_ms": 75.69026947021484,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1128,
+      "fps": 11.936389404305212,
+      "total_ms": 83.77742767333984,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1129,
+      "fps": 12.853228243182368,
+      "total_ms": 77.80146598815918,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1130,
+      "fps": 11.532920334028997,
+      "total_ms": 86.70830726623535,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1131,
+      "fps": 12.144132353920499,
+      "total_ms": 82.34429359436035,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1132,
+      "fps": 12.23492622821705,
+      "total_ms": 81.73322677612305,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1133,
+      "fps": 12.284413047362147,
+      "total_ms": 81.40397071838379,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1134,
+      "fps": 13.292000342258461,
+      "total_ms": 75.23322105407715,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1135,
+      "fps": 11.020589193563644,
+      "total_ms": 90.73925018310547,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1136,
+      "fps": 11.921427739043683,
+      "total_ms": 83.88257026672363,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1137,
+      "fps": 11.285689684863096,
+      "total_ms": 88.6077880859375,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1138,
+      "fps": 16.48756250196547,
+      "total_ms": 60.65177917480469,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1139,
+      "fps": 11.20662623239907,
+      "total_ms": 89.2329216003418,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1140,
+      "fps": 11.378672909924012,
+      "total_ms": 87.88371086120605,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1141,
+      "fps": 11.001222269434347,
+      "total_ms": 90.89899063110352,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1142,
+      "fps": 10.506720908211882,
+      "total_ms": 95.17717361450195,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1143,
+      "fps": 10.72155377131566,
+      "total_ms": 93.27006340026855,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1144,
+      "fps": 10.684845381572144,
+      "total_ms": 93.59049797058105,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1145,
+      "fps": 11.221347373715485,
+      "total_ms": 89.11585807800293,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1146,
+      "fps": 10.45575199178358,
+      "total_ms": 95.6411361694336,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1147,
+      "fps": 10.584326540912246,
+      "total_ms": 94.47932243347168,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1148,
+      "fps": 10.609868941948442,
+      "total_ms": 94.25187110900879,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1149,
+      "fps": 12.54153746789342,
+      "total_ms": 79.73504066467285,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1150,
+      "fps": 14.82232871096787,
+      "total_ms": 67.46578216552734,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1151,
+      "fps": 11.673575490051462,
+      "total_ms": 85.6635570526123,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1152,
+      "fps": 10.780332587966175,
+      "total_ms": 92.76151657104492,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1153,
+      "fps": 11.807955857098618,
+      "total_ms": 84.68866348266602,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1154,
+      "fps": 11.931465893671433,
+      "total_ms": 83.81199836730957,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1155,
+      "fps": 11.141285378454837,
+      "total_ms": 89.75625038146973,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1156,
+      "fps": 13.418251850714373,
+      "total_ms": 74.52535629272461,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1157,
+      "fps": 10.949498641201487,
+      "total_ms": 91.32838249206543,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1158,
+      "fps": 10.909399246229196,
+      "total_ms": 91.66407585144043,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1159,
+      "fps": 11.470032132357968,
+      "total_ms": 87.18371391296387,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1160,
+      "fps": 13.325742171614477,
+      "total_ms": 75.042724609375,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1161,
+      "fps": 11.802240968872932,
+      "total_ms": 84.72967147827148,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1162,
+      "fps": 10.865594002336685,
+      "total_ms": 92.03362464904785,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1163,
+      "fps": 10.73554939556122,
+      "total_ms": 93.14846992492676,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1164,
+      "fps": 10.670194308624575,
+      "total_ms": 93.7190055847168,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1165,
+      "fps": 10.784739953356938,
+      "total_ms": 92.72360801696777,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1166,
+      "fps": 11.344572499655143,
+      "total_ms": 88.14787864685059,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1167,
+      "fps": 13.382246995274757,
+      "total_ms": 74.72586631774902,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1168,
+      "fps": 12.358979647762197,
+      "total_ms": 80.91282844543457,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1169,
+      "fps": 9.972737453545962,
+      "total_ms": 100.27337074279785,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1170,
+      "fps": 12.976502290987955,
+      "total_ms": 77.06236839294434,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1171,
+      "fps": 11.637493653114621,
+      "total_ms": 85.92915534973145,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1172,
+      "fps": 9.434773415392367,
+      "total_ms": 105.99088668823242,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1173,
+      "fps": 10.727998199341123,
+      "total_ms": 93.21403503417969,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1174,
+      "fps": 12.006331922104764,
+      "total_ms": 83.28938484191895,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1175,
+      "fps": 12.064454147466764,
+      "total_ms": 82.88812637329102,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1176,
+      "fps": 10.22791428097658,
+      "total_ms": 97.77164459228516,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1177,
+      "fps": 10.319233371467936,
+      "total_ms": 96.90642356872559,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1178,
+      "fps": 9.687397364683058,
+      "total_ms": 103.22690010070801,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1179,
+      "fps": 10.803323700166391,
+      "total_ms": 92.56410598754883,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1180,
+      "fps": 14.40915743113719,
+      "total_ms": 69.40031051635742,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1181,
+      "fps": 12.227293398789604,
+      "total_ms": 81.78424835205078,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1182,
+      "fps": 11.082262794937511,
+      "total_ms": 90.23427963256836,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1183,
+      "fps": 10.499987483039519,
+      "total_ms": 95.23820877075195,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1184,
+      "fps": 10.486598927914233,
+      "total_ms": 95.35980224609375,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1185,
+      "fps": 9.207404025148396,
+      "total_ms": 108.60824584960938,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1186,
+      "fps": 12.295540624523634,
+      "total_ms": 81.3302993774414,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1187,
+      "fps": 9.834287616823525,
+      "total_ms": 101.6850471496582,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1188,
+      "fps": 10.299089011663597,
+      "total_ms": 97.09596633911133,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1189,
+      "fps": 11.657482733223086,
+      "total_ms": 85.78181266784668,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1190,
+      "fps": 11.207404794732849,
+      "total_ms": 89.22672271728516,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1191,
+      "fps": 9.696691711940817,
+      "total_ms": 103.12795639038086,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1192,
+      "fps": 15.22002482055897,
+      "total_ms": 65.70291519165039,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1193,
+      "fps": 11.188420797110535,
+      "total_ms": 89.37811851501465,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1194,
+      "fps": 12.078455313818376,
+      "total_ms": 82.79204368591309,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1195,
+      "fps": 12.19083050916426,
+      "total_ms": 82.02886581420898,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1196,
+      "fps": 11.266167416973774,
+      "total_ms": 88.7613296508789,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1197,
+      "fps": 11.769982826162602,
+      "total_ms": 84.9618911743164,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1198,
+      "fps": 15.116842488439733,
+      "total_ms": 66.15138053894043,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1199,
+      "fps": 15.221295204224202,
+      "total_ms": 65.69743156433105,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1200,
+      "fps": 13.243232832248756,
+      "total_ms": 75.51026344299316,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1201,
+      "fps": 13.094392047778268,
+      "total_ms": 76.36857032775879,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1202,
+      "fps": 12.617332081919477,
+      "total_ms": 79.25605773925781,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1203,
+      "fps": 12.307157821843768,
+      "total_ms": 81.2535285949707,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1204,
+      "fps": 13.616013400770026,
+      "total_ms": 73.44293594360352,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1205,
+      "fps": 14.531767314554967,
+      "total_ms": 68.81475448608398,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1206,
+      "fps": 16.616962018295556,
+      "total_ms": 60.17947196960449,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1207,
+      "fps": 14.104759086384547,
+      "total_ms": 70.89805603027344,
+      "status": "CAUTION"
+    },
+    {
+      "frame_idx": 1208,
+      "fps": 12.794884857433095,
+      "total_ms": 78.1562328338623,
+      "status": "CAUTION"
+    }
+  ]
+}
